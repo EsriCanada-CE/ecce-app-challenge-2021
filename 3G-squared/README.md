@@ -1,10 +1,10 @@
-<img align="right" width="100" height="100" src="https://github.com/Leila-U/3G-squared/blob/landy-landing-page/img/logo-vector-01.svg">
+<img align="right" width="100" height="100" src="img/logo-vector-01.svg">
 
 # 3G-squared: HOMEwork
 
 <!-- Introduction -->
 ## Introduction
-![alt text](https://github.com/Leila-U/3G-squared/blob/main/img/app_preview.gif)
+![App Preview](img/app_preview.gif)
 
 A React app landing page and an ESRI story map app fused together to create an easy-to-use and informative experience for the user.
 
@@ -38,7 +38,7 @@ Quick start our [app](https://storymaps.arcgis.com/stories/ebf658dcec894c0fbe905
 
 - ``serve -s build``
 
->> ![alt text](https://github.com/Leila-U/3G-squared/blob/main/img/Instruction_terminal.jpg)
+>> ![Instruction terminal](img/Instruction_terminal.jpg)
 
 - Open up your preferred browser and go to where you are running the react app.
 
@@ -74,17 +74,17 @@ Median income data was shown from 2005 to 2015. The growth rate is estimated as 
 <a name="team"/></a>
 
 ## 6. Team
-![alt text](https://github.com/Leila-U/3G-squared/blob/main/img/Priya_Patel_icon.png)
+![Priya Patel](img/Priya_Patel_icon.png)
 - **Priya Patel**
 
 Priya is a graduate student in the Department of Geography at the University of Toronto. She has a background in engineering and has previous consulting experience. Her current research is focused on modeling urban air quality using satellite remote sensing data.
 
-![alt text](https://github.com/Leila-U/3G-squared/blob/main/img/Nika_Moguilevskaia_icon.png)
+![Nicole Moguilevskaia](img/Nika_Moguilevskaia_icon.png)
 - **Nicole Moguilevskaia**
 
 Nicole is a 3rd year undergraduate student studying GIS, Computer Science, and Math at the University of Toronto. When she is not studying, she is working as a graphic designer for an on school organization empowering women in STEM called WiSC.
 
-![alt text](https://github.com/Leila-U/3G-squared/blob/main/img/Leila_Uy_icon.png)
+![Leila Uy](img/Leila_Uy_icon.png)
 - **Leila Uy**
 
 Leila is a 4th year undergraduate student in the GIS major with minors in Computer Science and Math at UTM. She is interested in using her skills in GIS and computer science to battle the environmental and social problems in the contemporary world. In her free time, you can find her painting, finding good dessert places with her friends, playing video games, or making origami.

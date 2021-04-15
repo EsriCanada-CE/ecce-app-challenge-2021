@@ -1,0 +1,232 @@
+<!-- Government WEBPAGE-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/css/main.css">
+    
+    <!--Main app css file-->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!--Navbar css content for features-->
+    <link rel="stylesheet" href="../../css/nav.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <!-- <link rel="stylesheet" href="../../assets/css/main.css" /> -->
+
+
+    <!--Tabination content for features-->
+    <link rel="stylesheet" href="../../css/tabination.css">
+
+    <!--For our Search Bar CSS-->
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/search_bar.css">
+
+    <!--Styling for Card-->
+    <link rel="stylesheet" href="../../css/card.css"/>
+
+    <!--Preloader-->
+    <!-- Preloader CSS-->
+   <link rel="stylesheet" href="../../css/preloader.css">
+    
+    <!--JAVASCRIPT-->
+   
+    <!--Spatial Analysis stuff--> <!--Put above esri files to prevent issues-->
+    <script src='https://unpkg.com/@turf/turf@6.3.0/turf.min.js'></script>
+
+    <!--Database Content-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+    <!--ArcGIS Stuff and Application code-->
+    <script src="https://js.arcgis.com/4.18/"></script>
+    <script type="module" src="js/index.js"></script>
+     
+    <!--https://www.keycdn.com/support/requirejs-cdn-->
+    <!--Require JS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js"></script>
+
+     <!--https://www.jsdelivr.com/package/npm/node-dotenv-->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/node-path@0.0.3/index.min.js"></script> -->
+     <!-- <script src="https://cdn.jsdelivr.net/npm/node-dotenv@1.1.1/lib/dotEnv.min.js"></script>  Now I have dotenv -->
+ 
+    
+    
+    
+    <title>Food Desert Solver</title>
+</head>
+<body>
+    <!-- Pre Loader-->
+    
+    <div class="preloader">  
+        <div class="loader">
+          <span class="loader-inner"></span>
+        </div> <p>Loading...</p></div>
+    </div>
+    <div id="overlayer"></div> 
+    <!--End Pre Loader-->
+    <div class="topnav">
+            <a class="active" href="../../index.html"><b>Equimatics</b></a>
+        <div class="topnav-right">
+            <a href="../../index.html">Home</a> 
+            <a href="../../index.html#team">Team</a> 
+            <a href="../../index.html#footer">Contact Us</a> 
+        </div>
+    </div>
+    <!-- Header -->
+    <!-- <header id="header">
+        <a class="logo" href="index.html">Equimatics</a>
+        <nav>
+          <a href="#menu">Menu</a>
+        </nav>
+      </header> -->
+  
+      <!-- Nav -->
+      <!-- <nav id="menu">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="government/esri/index.html">Web Application</a></li>
+        </ul>
+      </nav> -->
+
+    <div class="layerContainer">
+
+        
+    
+        <!--Adding the editor widget to the map-->
+            
+        <div class ="leftWidget">
+           
+            <div id="editWidget" class="aligned">
+                <div id = "search_form" class="example" style="margin:auto;max-width:300px">
+                    <input id="url_info" type="text" placeholder="Search Layers Online..." name="search2">
+                    <button id="search_btn_url"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            
+            
+            <!--Turn Off VGI-->
+            <div class = "endVGI"> 
+                <button class="analysisBtns" id="endVGI">End VGI Session</button>
+                <button class="analysisBtns" id="kmeans" style="display: none;">Calculate K means Cluster</button>
+            </div>
+        </div>
+        
+        <!-- Adding our map to the page-->
+        <div id = "maparea" class="aligned"><div id="viewDiv"></div></div>
+        
+        <!-- Toggle Layers on and off-->
+        <div id ="toggle_layers" class="aligned">
+            <h1>Layers List</h1>
+        </div>
+    
+    </div>
+
+
+    <!--For the Feature to be highlighted-->
+    <div id="info">
+        <span id="name"></span> <br />
+        <span id="description"></span> <br />
+        <!-- <span id="wind"></span> -->
+    </div>
+
+    <!--We have the service areas before the container-->
+    <div id="desertLocations" class="card-panel"></div>
+
+
+
+
+    <!--The tab Containers check tabination.css-->
+    <!-- <div class = "toggle_container">
+    
+        <button class="tablink" onclick="openPage('Table', this, '#4CAF50')">Data Table</button>
+        <button class="tablink" onclick="openPage('RouteLocator', this, '#4CAF50')" id="defaultOpen">Route Locator</button>
+        <button class="tablink" onclick="openPage('ServiceArea', this, '#4CAF50')">Service Area</button>
+        <button class="tablink" onclick="openPage('Instructions', this, '#4CAF50')">Instructions</button>
+
+        <div id="Table" class="tabcontent">
+        <h3>Historical Emergency Events</h3>
+        <div id = "tableInfo" style="height: 300px"></div>
+        </div>
+
+        <div id="RouteLocator" class="tabcontent">
+            <h3>Route Locator</h3>
+            <p> Generates a route from current location to the nearest bus stop while avoiding lakes and rivers.</p>
+            <br>
+            <button class="analysisBtns" id="calc_route">Click to Generate Route</button>
+            
+            <button class="analysisBtns" id="kmeans">Calculate K means Cluster</button>
+            <button class="analysisBtns" id="dbscan">Calculate DB Scan Cluster</button>
+            <p></p>
+            <br>
+            <div id ="directions"></div>
+        </div>
+    
+        <div id="ServiceArea" class="tabcontent">
+            <h3>Service Area</h3>
+        </div>
+    
+        <div id="Instructions" class="tabcontent">
+            <h3>Instructions</h3>
+            </br>
+
+            <h4>Adding/Edition Features and Meta Data</h4>
+            <p>
+            <ul>
+                <li>You must use the <b>Editor Widget</b> to add features</li>
+                <li>When the feature has been created you can return to it and edit the information</li>
+                <li>Currently there is a bug with features that were added</li>
+                <li>So if you click to edit a feature choose the second feature (in this case untitled_feature)
+                    </br>
+                    <img src="../map_images/untitled_feature.JPG" style="width: 50%;">
+                </li>
+                <li>Delete the first feature if needed</li>
+                <li>Now the existing information for this feature will show up</li>
+                <li>Do not edit the UUID field</li>
+                <li>You can edit the information</li>
+               
+            </ul>
+            </p>
+
+            <h4>Service Area</h4>
+            <p>
+            <ul>
+                <li>Double click a location of choice on the map</li>
+                <li>A service area of 5, 10, 15 minutes will be generated</li>
+                <li> You can also clear the Service area by clicking on the <b>Clear Service Area button</b></li>
+            </ul>
+            </p>
+        </div>
+    </div> -->
+
+<!--For our Search Bar JS-->
+ <!-- <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js'></script> -->
+
+ <!-- PRELOADER-->
+ <!-- jQuery -->
+ 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+    $(window).load(function() {
+    $(".preloader").delay(2000).fadeOut("slow");
+    $("#overlayer").delay(2000).fadeOut("slow");
+    })
+</script>
+    
+</body>
+<!-- I want this to load later-->
+<!-- <script src="../../js/tabination.js"></script> -->
+
+
+
+
+
+
+
+
+</html>

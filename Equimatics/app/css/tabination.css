@@ -1,0 +1,78 @@
+ /* CSS for responsive tabs */
+ /* Tab containers *
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_full_page_tabs */
+  /* Style tab links */
+ 
+  .toggle_container{ /* Change the container height*/
+      height: 35%;
+      border: 1px solid black;
+      position: relative;
+      top: -30%;
+  }
+
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: black;
+    font-size: 18px;
+    display: none;
+    padding: 10px 20px;
+    height: 100%;
+  }
+  
+
+  #Table {
+    background-color: whitesmoke;
+    overflow-y:auto;
+
+  }
+  #RouteLocator {
+    background-color: whitesmoke;
+    text-align: left;
+    overflow-y:auto !important;
+  }
+  #ServiceArea {
+    background-color: whitesmoke;
+    text-align: left;
+    overflow-y:auto;
+  }
+  #Instructions {
+    background-color: whitesmoke;
+    text-align: left;
+    overflow-y:auto;}
+  
+
+  .analysisBtns {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 1.5s;
+    position: relative;
+  }
+
+  .analysisBtns:hover {
+    background-color: black;
+    color: white;
+  }
+    /*************************************************************/

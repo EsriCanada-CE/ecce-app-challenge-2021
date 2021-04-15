@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Equimatics - Grocery Shop locations</title>
+
+    <!--CSS Files-->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css" />
+    <link rel="stylesheet" href = "../css/cluster.css"/>
+
+    <!--Styling for Card-->
+    <link rel="stylesheet" href="../../css/card.css"/>
+
+    <!--Preloader-->
+    <!-- Preloader CSS-->
+   <link rel="stylesheet" href="../../css/preloader.css">
+
+    <!--Navbar css content for features-->
+    <link rel="stylesheet" href="../../css/nav.css">
+
+
+    <!--Javascript Files-->
+    <script src="https://js.arcgis.com/4.18/"></script>
+    <script type="module" src="js/cluster.js"></script>
+  </head>
+
+  <body>
+    <!-- Pre Loader-->
+    
+    <div class="preloader">  
+      <div class="loader">
+        <span class="loader-inner"></span>
+      </div> <p>Calculating Clusters...</p></div>
+  </div>
+  <div id="overlayer"></div> 
+  <!--End Pre Loader-->
+  
+    <div class="topnav">
+        <a class="active" href="../../index.html"><b>Equimatics</b></a>
+        <div class="topnav-right">
+          <a href="../../index.html">Home</a> 
+          <a href="../../index.html#team">Team</a> 
+          <a href="../../index.html#footer">Contact Us</a> 
+        </div>
+    </div>
+
+    <div class="layerContainer">
+    
+      <!--Adding the editor widget to the map-->
+          
+          
+      <!-- <div id="editWidget" class="aligned">
+          <div id = "search_form" class="example" style="margin:auto;max-width:300px">
+              <input id="url_info" type="text" placeholder="Search Layers Online..." name="search2">
+              <button id="search_btn_url"><i class="fa fa-search"></i></button>
+          </div>
+      </div> -->
+      
+      <!-- Adding our map to the page-->
+      <div id = "maparea" class="aligned"><div id="viewDiv"></div></div>
+      
+      <!-- Toggle Layers on and off-->
+      <div id ="toggle_layers" class="aligned">
+          <h1>Layers List</h1>
+      </div>
+  </div>
+
+  <div id="clusterLocations" class="card-panel"></div>
+
+  <!-- PRELOADER-->
+ <!-- jQuery -->
+ 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+    $(window).load(function() {
+    $(".preloader").delay(1500).fadeOut("slow");
+    $("#overlayer").delay(1500).fadeOut("slow");
+    })
+</script>
+  </body>
+</html>

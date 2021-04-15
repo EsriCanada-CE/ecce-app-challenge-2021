@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+
+  /*************************************************************/
+
+  /* Working on the Map and editor widget styling*/
+
+  .layerContainer {
+    position: relative;
+    /*left: 30%; /* Pushes value to right */
+    top: 0; /* Pushes value to right */
+
+    /*text-align: center;
+    background-color: whitesmoke;*/
+    /* border: 2px solid black;   */
+
+    border-top: 4px solid red;
+    width: 100%;
+    height: 100%;
+    }
+
+   /* A wrapper for the map */
+  #maparea{
+    position: relative;
+    /* float:right; */
+    height: 62%;
+    width: 74%;
+    /* border: 1px solid red; */
+  }
+  #viewDiv {
+    /* display: inline-block; */
+    height: 100%;
+    width: 100%;
+  }
+
+   /* Get elements to be in the same block */
+   .aligned{
+    display:inline-block;
+    padding: 2px;
+  }
+
+  /* Turn Layers on and off */
+  #toggle_layers{
+    height: 62%;
+    width: 25%;
+  }
+
+  /******************************************************/
+
+  /**Rewriting of the card panel **/
+
+.card-panel{
+    width:100%;
+    height: 35% !important;
+    padding: 5px;
+    position: relative;
+    top: -38% !important;
+    background-color: whitesmoke;
+    overflow-x: auto;   
+}
+

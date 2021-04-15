@@ -6,7 +6,7 @@
 ## Introduction
 ![App Preview](img/app_preview.gif)
 
-A React app landing page and an ESRI story map app fused together to create an easy-to-use and informative experience for the user.
+A React app landing page and an Esri story map app fused together to create an easy-to-use and informative experience for the user.
 
 <!-- Table of contents (Links) -->
 ## Table of Contents
@@ -106,7 +106,7 @@ Leila is a 4th year undergraduate student in the GIS major with minors in Comput
 
 ## 8. Tools
 - 🌐 [ArcGis Online](https://www.arcgis.com/index.html)
-- 📖 [ESRI StoryMaps](https://storymaps.arcgis.com/)
-- 📽️ [ESRI Videos](https://www.youtube.com/channel/UCwAw9sorqR55IN6e_IyaUKg)
+- 📖 [Esri StoryMaps](https://storymaps.arcgis.com/)
+- 📽️ [Esri Videos](https://www.youtube.com/channel/UCwAw9sorqR55IN6e_IyaUKg)
 - 🖥️ [Landy | React Template](https://github.com/Adrinlol/landy-react-template)
 - 🎬 [Pexel | Stock Videos](https://www.pexels.com/videos/)

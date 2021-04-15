@@ -1,0 +1,34 @@
+.gradient {
+  background: linear-gradient(55deg, #0fb8ad 0%, #2196f3 51%, #0069c0 85%);
+}
+
+.centre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
+.darken {
+  filter: brightness(30%);
+}
+
+.button {
+  background-color: #2196f3;
+  border: none;
+  color: #FFFFFF;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.button:hover {background-color: #0069c0}

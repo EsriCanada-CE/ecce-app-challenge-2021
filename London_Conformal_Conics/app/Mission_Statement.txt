@@ -1,0 +1,12 @@
+ECCE App Challenge 2021
+Team London Conformal Conic
+---
+Misson Statement
+
+	In 2015, the member states of the United Nations adopted the 17 Sustainable Development Goals (SDG’s), meant to provide a roadmap for social and environmental prosperity into the future. Goal 10, to reduce inequality within and among countries, sets targets to reduce income inequality and encourage economic growth and trade with developing countries.
+
+	To reduce income inequality in Canada, the economic growth of lower income areas should equal or exceed the national average economic growth. Indicators such as household expenditure or income can be used to identify lower income areas, as well as determine how economic growth is distributed across Canada. These measures are specifically used in the SDG’s goal 10.1, making them useful globally in providing an indication of Canada’s international standing in reducing income inequality.
+
+	Our app seeks to measure Canada’s economic development prior to the adoption of the 17 SDG’s using the same indicators, highlighting Canada’s current trajectory in reducing income inequality. Determining the path Canada is on puts into perspective the relevance of the problem of inequitable economic development, and paints a picture of the current income inequality landscape in Canada.
+
+	This information can be used to identify specific areas of need, conduct additional analysis into spatial patterns of income inequality, and measure the equity of economic growth in the future.

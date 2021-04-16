@@ -3,7 +3,7 @@
 **Team SpaceGirls:**
 *Mariah St Pierre; Sage Mosgrove; Meg MacKay*
 
-![SpaceGirlsPicture](https://user-images.githubusercontent.com/80009616/110141719-01a15b00-7db0-11eb-8e39-7de8a7e48f8c.png)
+![SpaceGirlsPicture](images/team.png)
 
 
 ## Mission Statement

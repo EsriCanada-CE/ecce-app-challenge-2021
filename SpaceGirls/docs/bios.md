@@ -1,7 +1,7 @@
 # SpaceGirls
 
 ## Team Photo
-![Team Photo](../images/team.jpg)
+![Team Photo](../images/team.png)
 
 ## Team Member Bios
 

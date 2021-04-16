@@ -6,8 +6,8 @@
       "type": "NORMAL",
       "layout": {
         "LARGE": "layout_0",
-        "MEDIUM": "layout_482",
-        "SMALL": "layout_527"
+        "MEDIUM": "layout_0",
+        "SMALL": "layout_0"
       },
       "isDefault": true,
       "isVisible": true,

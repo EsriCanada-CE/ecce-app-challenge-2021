@@ -1,0 +1,2791 @@
+{
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "iso": "af",
+      "flagurl": "https://www.worldometers.info/img/flags/af-flag.gif",
+      "langs": [
+        "\u062f\u0631\u0649",
+        " Pashto"
+      ],
+      "localname": [
+        "\u0627\u0641\u063a\u0627\u0646\u0633\u062a\u0627\u0646Afghanestan "
+      ]
+    },
+    {
+      "name": "Albania",
+      "iso": "al",
+      "flagurl": "https://www.worldometers.info/img/flags/al-flag.gif",
+      "langs": [
+        "shqip / gjuha shqipe"
+      ],
+      "localname": [
+        "Shqip\u00ebria"
+      ]
+    },
+    {
+      "name": "Algeria",
+      "iso": "dz",
+      "flagurl": "https://www.worldometers.info/img/flags/ag-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Berber"
+      ],
+      "localname": [
+        "Dzayer"
+      ]
+    },
+    {
+      "name": "American Samoa",
+      "iso": "as",
+      "flagurl": "https://www.worldometers.info/img/flags/ws-flag.gif",
+      "langs": [
+        "English",
+        " Samoan"
+      ],
+      "localname": [
+        "Samoa",
+        " S\u0101moa"
+      ]
+    },
+    {
+      "name": "Andorra",
+      "iso": "ad",
+      "flagurl": "https://www.worldometers.info/img/flags/an-flag.gif",
+      "langs": [
+        "catal\u00e0"
+      ],
+      "localname": [
+        "Andorra"
+      ]
+    },
+    {
+      "name": "Angola",
+      "iso": "ao",
+      "flagurl": "https://www.worldometers.info/img/flags/ao-flag.gif",
+      "langs": [
+        "kikongo",
+        " Portuguese"
+      ],
+      "localname": [
+        "Angola"
+      ]
+    },
+    {
+      "name": "Anguilla",
+      "iso": "ai",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Antarctica",
+      "iso": "aq",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "iso": "ag",
+      "flagurl": "https://www.worldometers.info/img/flags/ac-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Antigua and Barbuda"
+      ]
+    },
+    {
+      "name": "Argentina",
+      "iso": "ar",
+      "flagurl": "https://www.worldometers.info/img/flags/ar-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Argentina"
+      ]
+    },
+    {
+      "name": "Armenia",
+      "iso": "am",
+      "flagurl": "https://www.worldometers.info/img/flags/am-flag.gif",
+      "langs": [
+        "\u0540\u0561\u0575\u0565\u0580\u0567\u0576 (Hayeren)"
+      ],
+      "localname": [
+        "Hayast\u00e1n"
+      ]
+    },
+    {
+      "name": "Aruba",
+      "iso": "aw",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Australia",
+      "iso": "au",
+      "flagurl": "https://www.worldometers.info/img/flags/as-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Australia"
+      ]
+    },
+    {
+      "name": "Austria",
+      "iso": "at",
+      "flagurl": "https://www.worldometers.info/img/flags/au-flag.gif",
+      "langs": [
+        "Deutsch"
+      ],
+      "localname": [
+        "\u00d6sterreich"
+      ]
+    },
+    {
+      "name": "Azerbaijan",
+      "iso": "az",
+      "flagurl": "https://www.worldometers.info/img/flags/aj-flag.gif",
+      "langs": [
+        "Az\u0259rbaycan dili / \u0410\u0437\u04d9\u0440\u0431\u0430\u0458\u04b9\u0430\u043d \u0434\u0438\u043b\u0438 / \u0622\u0630\u0631\u0628\u0627\u064a\u062c\u0627\u0646\u062c\u0627 \u062f\u064a\u0644\u064a"
+      ],
+      "localname": [
+        "Az\u0259rbaycan"
+      ]
+    },
+    {
+      "name": "Bahamas",
+      "iso": "bs",
+      "flagurl": "https://www.worldometers.info/img/flags/bf-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "The Bahamas"
+      ]
+    },
+    {
+      "name": "Bahrain",
+      "iso": "bh",
+      "flagurl": "https://www.worldometers.info/img/flags/ba-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Berber"
+      ],
+      "localname": [
+        "\u0627\u0644\u0628\u062d\u0631\u064a\u0646Al-Bahrayn"
+      ]
+    },
+    {
+      "name": "Bangladesh",
+      "iso": "bd",
+      "flagurl": "https://www.worldometers.info/img/flags/bg-flag.gif",
+      "langs": [
+        "\u09ac\u09be\u0982\u09b2\u09be (ba\u025bn\u0307la\u0304)"
+      ],
+      "localname": [
+        "Bangladesh \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6"
+      ]
+    },
+    {
+      "name": "Barbados",
+      "iso": "bb",
+      "flagurl": "https://www.worldometers.info/img/flags/bb-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Barbados"
+      ]
+    },
+    {
+      "name": "Belarus",
+      "iso": "by",
+      "flagurl": "https://www.worldometers.info/img/flags/bo-flag.gif",
+      "langs": [
+        "\u0411\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430 (Bielaruskaja mova)"
+      ],
+      "localname": [
+        "Bielaru\u015b",
+        " \u0411\u0435\u043b\u0430\u0440\u0443\u0441\u044c"
+      ]
+    },
+    {
+      "name": "Belgium",
+      "iso": "be",
+      "flagurl": "https://www.worldometers.info/img/flags/be-flag.gif",
+      "langs": [
+        "Nederlands",
+        " French",
+        " German"
+      ],
+      "localname": [
+        "Belgi\u00eb",
+        " Belgique",
+        " Belgien"
+      ]
+    },
+    {
+      "name": "Belize",
+      "iso": "bz",
+      "flagurl": "https://www.worldometers.info/img/flags/bh-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Belize"
+      ]
+    },
+    {
+      "name": "Benin",
+      "iso": "bj",
+      "flagurl": "https://www.worldometers.info/img/flags/bn-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "B\u00e9nin"
+      ]
+    },
+    {
+      "name": "Bermuda",
+      "iso": "bm",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Bhutan",
+      "iso": "bt",
+      "flagurl": "https://www.worldometers.info/img/flags/bt-flag.gif",
+      "langs": [
+        "Dzongkha"
+      ],
+      "localname": [
+        "Druk Yul",
+        " \u0f60\u0f56\u0fb2\u0f74\u0f42\u0f0b\u0f61\u0f74\u0f63"
+      ]
+    },
+    {
+      "name": "Bolivia",
+      "iso": "bo",
+      "flagurl": "https://www.worldometers.info/img/flags/bl-flag.gif",
+      "langs": [
+        "aymar aru",
+        " Guaran\u00ed",
+        " Quechua",
+        " Spanish"
+      ],
+      "localname": [
+        "Wuliwya",
+        " Vol\u00edvia",
+        " Buliwya",
+        " Bolivia"
+      ]
+    },
+    {
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "iso": "bq",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "iso": "ba",
+      "flagurl": "https://www.worldometers.info/img/flags/bk-flag.gif",
+      "langs": [
+        "bosanski / \u0431\u043e\u0441\u0430\u043d\u0441\u043a\u0438 / \u0628\u06c9\u0633\u0627\u0646\u0633\u0642\u0649",
+        " Serbian",
+        " Croatian"
+      ],
+      "localname": [
+        "Bosnia I Hercegov\u00edna",
+        " \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+      ]
+    },
+    {
+      "name": "Botswana",
+      "iso": "bw",
+      "flagurl": "https://www.worldometers.info/img/flags/bc-flag.gif",
+      "langs": [
+        "English",
+        " Tswana"
+      ],
+      "localname": [
+        "Botswana"
+      ]
+    },
+    {
+      "name": "Bouvet Island",
+      "iso": "bv",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Brazil",
+      "iso": "br",
+      "flagurl": "https://www.worldometers.info/img/flags/br-flag.gif",
+      "langs": [
+        "portugu\u00eas"
+      ],
+      "localname": [
+        "Brasil"
+      ]
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "iso": "io",
+      "flagurl": "https://www.worldometers.info/img/flags/in-flag.gif",
+      "langs": [
+        "\u0985\u09b8\u09ae\u09c0\u09df\u09be (asam\u012by\u0307a)",
+        " Bengali",
+        " English",
+        " Hindi",
+        " Kannada",
+        " Konkai",
+        " Malayalam",
+        " Marthi",
+        " Nepalese",
+        " Oriya",
+        " Punjabi",
+        " Sanskrit",
+        " Tamil",
+        " Telugu"
+      ],
+      "localname": [
+        "Bhar\u00f4t \u09ad\u09be\u09f0\u09a4",
+        " Bhar\u00f4t \u09ad\u09be\u09b0\u09a4",
+        " India",
+        " Bh\u0101rat \u0aad\u0abe\u0ab0\u0aa4",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bh\u0101rata \u0cad\u0cbe\u0cb0\u0ca4",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bh\u0101ratam \u0d2d\u0d3e\u0d30\u0d24\u0d02",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bhar\u00f4t\u00f4  \u0b2d\u0b3e\u0b30\u0b24",
+        " Bh\u0101rat \u0a2d\u0a3e\u0a30\u0a24",
+        " Bh\u0101ratam \u092d\u093e\u0930\u0924\u092e\u094d",
+        " B\u0101rata \u0baa\u0bbe\u0bb0\u0ba4\u0bae\u0bcd",
+        " Bh\u0101ratad\u0113sam \u0c2d\u0c3e\u0c30\u0c24 \u0c26\u0c47\u0c36\u0c02"
+      ]
+    },
+    {
+      "name": "Brunei Darussalam",
+      "iso": "bn",
+      "flagurl": "https://www.worldometers.info/img/flags/bx-flag.gif",
+      "langs": [
+        "Bahasa melayu"
+      ],
+      "localname": [
+        "Brunei \u0628\u0631\u0648\u0646\u064a"
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "iso": "bg",
+      "flagurl": "https://www.worldometers.info/img/flags/bu-flag.gif",
+      "langs": [
+        "\u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 (b\u00e3lgarski) \u0431\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438 \u0435\u0437\u0438\u043a (b\u00e3lgarski ezik)"
+      ],
+      "localname": [
+        "Bulgariya",
+        " \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f"
+      ]
+    },
+    {
+      "name": "Burkina Faso",
+      "iso": "bf",
+      "flagurl": "https://www.worldometers.info/img/flags/uv-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "Burkina Faso"
+      ]
+    },
+    {
+      "name": "Burundi",
+      "iso": "bi",
+      "flagurl": "https://www.worldometers.info/img/flags/by-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " Kirundi"
+      ],
+      "localname": [
+        "Burundi",
+        " Uburundi"
+      ]
+    },
+    {
+      "name": "Cabo Verde",
+      "iso": "cv",
+      "flagurl": "https://www.worldometers.info/img/flags/cv-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Cambodia",
+      "iso": "kh",
+      "flagurl": "https://www.worldometers.info/img/flags/cb-flag.gif",
+      "langs": [
+        "\u1797\u17b6\u179f\u17b6\u1781\u17d2\u1798\u17c2\u179a (bh\u0101s\u0101 khm\u025b\u0304r)"
+      ],
+      "localname": [
+        "Kampuchea \u1780\u1798\u17d2\u1796\u17bb\u1787\u17b6"
+      ]
+    },
+    {
+      "name": "Cameroon",
+      "iso": "cm",
+      "flagurl": "https://www.worldometers.info/img/flags/cm-flag.gif",
+      "langs": [
+        "English",
+        " French"
+      ],
+      "localname": [
+        "Cameroon",
+        " Cameroun"
+      ]
+    },
+    {
+      "name": "Canada",
+      "iso": "ca",
+      "flagurl": "https://www.worldometers.info/img/flags/ca-flag.gif",
+      "langs": [
+        "English",
+        " French"
+      ],
+      "localname": [
+        "Canada"
+      ]
+    },
+    {
+      "name": "Cayman Islands",
+      "iso": "ky",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Central African Republic",
+      "iso": "cf",
+      "flagurl": "https://wonderfulengineering.com/wp-content/uploads/2015/08/Central-African-Republic-Flag-9.jpg",
+      "langs": [
+        "fran\u00e7ais",
+        " sango"
+      ],
+      "localname": [
+        "R\u00e9publique Centrafricaine",
+        " K\u00f6d\u00f6r\u00f6s\u00ease t\u00ee B\u00eaafr\u00eeka"
+      ]
+    },
+    {
+      "name": "Chad",
+      "iso": "td",
+      "flagurl": "https://www.worldometers.info/img/flags/cd-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " French"
+      ],
+      "localname": [
+        "Tchad",
+        " \u062a\u0634\u0627\u062f"
+      ]
+    },
+    {
+      "name": "Chile",
+      "iso": "cl",
+      "flagurl": "https://www.worldometers.info/img/flags/ci-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Chile"
+      ]
+    },
+    {
+      "name": "China",
+      "iso": "cn",
+      "flagurl": "https://www.worldometers.info/img/flags/ch-flag.gif",
+      "langs": [
+        "Mandarin Chinese"
+      ],
+      "localname": [
+        "Zh\u014dnggu\u00f3 \u4e2d\u56fd"
+      ]
+    },
+    {
+      "name": "Christmas Island",
+      "iso": "cx",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Cocos Islands",
+      "iso": "cc",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Colombia",
+      "iso": "co",
+      "flagurl": "https://www.worldometers.info/img/flags/co-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Colombia"
+      ]
+    },
+    {
+      "name": "Comoros",
+      "iso": "km",
+      "flagurl": "https://www.worldometers.info/img/flags/cn-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " French",
+        " Shikomor"
+      ],
+      "localname": [
+        "\u062c\u0632\u0631 \u0627\u0644\u0642\u0645\u0631 Comores Koromi"
+      ]
+    },
+    {
+      "name": "Democratic Republic of Congo",
+      "iso": "cd",
+      "flagurl": "https://cdn.britannica.com/94/7194-004-5FA84A72/Flag-Democratic-Republic-of-the-Congo.jpg",
+      "langs": [
+        "fran\u00e7ais",
+        "Lingala",
+        "Swahili",
+        "Kongo"
+      ],
+      "localname": [
+        "R\u00e9publique d\u00e9mocratique du Congo",
+        " Republ\u00edki ya Kong\u00f3",
+        " Demokrat\u00edki Jamhuri ya Kidemokrasia ya Kongo"
+      ]
+    },
+    {
+      "name": "Congo",
+      "iso": "cg",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/1200px-Flag_of_the_Republic_of_the_Congo.svg.png",
+      "langs": [
+        "fran\u00e7ais",
+        "Lingala",
+        "Kongo"
+      ],
+      "localname": [
+        "République du Congo",
+        "Repubilika ya Kôngo",
+        "Republíki ya Kongó"
+      ]
+    },
+    {
+      "name": "Cook Islands",
+      "iso": "ck",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Costa Rica",
+      "iso": "cr",
+      "flagurl": "https://www.worldometers.info/img/flags/cs-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Costa Rica"
+      ]
+    },
+    {
+      "name": "Croatia",
+      "iso": "hr",
+      "flagurl": "https://www.worldometers.info/img/flags/hr-flag.gif",
+      "langs": [
+        "Hrvatski"
+      ],
+      "localname": [
+        "Hrvatska"
+      ]
+    },
+    {
+      "name": "Cuba",
+      "iso": "cu",
+      "flagurl": "https://www.worldometers.info/img/flags/cu-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Cuba"
+      ]
+    },
+    {
+      "name": "Cura\u00e7ao",
+      "iso": "cw",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Cyprus",
+      "iso": "cy",
+      "flagurl": "https://www.worldometers.info/img/flags/cy-flag.gif",
+      "langs": [
+        "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac (ell\u0113nik\u00e1)",
+        " Turkish"
+      ],
+      "localname": [
+        "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 K\u0131br\u0131s"
+      ]
+    },
+    {
+      "name": "Czechia",
+      "iso": "cz",
+      "flagurl": "https://www.worldometers.info/img/flags/ez-flag.gif",
+      "langs": [
+        "\u010de\u0161tina / \u010desk\u00fd jazyk"
+      ],
+      "localname": [
+        "\u010cesko"
+      ]
+    },
+    {
+      "name": "C\u00f4te d'Ivoire",
+      "iso": "ci",
+      "flagurl": "https://www.worldometers.info/img/flags/iv-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "C\u00f4te d'Ivoire"
+      ]
+    },
+    {
+      "name": "Denmark",
+      "iso": "dk",
+      "flagurl": "https://www.worldometers.info/img/flags/da-flag.gif",
+      "langs": [
+        "dansk"
+      ],
+      "localname": [
+        "Danmark"
+      ]
+    },
+    {
+      "name": "Djibouti",
+      "iso": "dj",
+      "flagurl": "https://www.worldometers.info/img/flags/dj-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Dominica",
+      "iso": "dm",
+      "flagurl": "https://www.worldometers.info/img/flags/dr-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Rep\u00fablica Dominicana"
+      ]
+    },
+    {
+      "name": "Dominican Republic",
+      "iso": "do",
+      "flagurl": "https://www.worldometers.info/img/flags/dr-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Ecuador",
+      "iso": "ec",
+      "flagurl": "https://www.worldometers.info/img/flags/ec-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Ecuador"
+      ]
+    },
+    {
+      "name": "Egypt",
+      "iso": "eg",
+      "flagurl": "https://www.worldometers.info/img/flags/eg-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "\u0645\u0635\u0631Misr "
+      ]
+    },
+    {
+      "name": "El Salvador",
+      "iso": "sv",
+      "flagurl": "https://www.worldometers.info/img/flags/es-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "El Salvador"
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "iso": "gq",
+      "flagurl": "https://www.worldometers.info/img/flags/gv-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " Manika",
+        " Pular"
+      ],
+      "localname": [
+        "Guin\u00e9e",
+        " Gine",
+        " Gine"
+      ]
+    },
+    {
+      "name": "Eritrea",
+      "iso": "er",
+      "flagurl": "https://www.worldometers.info/img/flags/er-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Tigrinya"
+      ],
+      "localname": [
+        "Iritriya \u0625\u0631\u062a\u0631\u064a\u0627 Ertra "
+      ]
+    },
+    {
+      "name": "Estonia",
+      "iso": "ee",
+      "flagurl": "https://www.worldometers.info/img/flags/en-flag.gif",
+      "langs": [
+        "eesti keel"
+      ],
+      "localname": [
+        "Eesti"
+      ]
+    },
+    {
+      "name": "Eswatini",
+      "iso": "sz",
+      "flagurl": "https://www.worldometers.info/img/flags/wz-flag.gif",
+      "langs": [
+        "English",
+        " Swazi"
+      ],
+      "localname": [
+        "Eswatini",
+        " eSwatini"
+      ]
+    },
+    {
+      "name": "Ethiopia",
+      "iso": "et",
+      "flagurl": "https://www.worldometers.info/img/flags/et-flag.gif",
+      "langs": [
+        "\u12a3\u121b\u122d\u129b (amar\u0259\u00f1\u00f1a)"
+      ],
+      "localname": [
+        "Ityop'ia \u12a2\u1275\u12ee\u1335\u12eb"
+      ]
+    },
+    {
+      "name": "Falkland Islands [Malvinas]",
+      "iso": "fk",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Faroe Islands",
+      "iso": "fo",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Fiji",
+      "iso": "fj",
+      "flagurl": "https://www.worldometers.info/img/flags/fj-flag.gif",
+      "langs": [
+        "English",
+        " Fijian",
+        " Fiji Hindi"
+      ],
+      "localname": [
+        "Fiji",
+        " Viti",
+        " \u092b\u093c\u093f\u091c\u0940"
+      ]
+    },
+    {
+      "name": "Finland",
+      "iso": "fi",
+      "flagurl": "https://www.worldometers.info/img/flags/fi-flag.gif",
+      "langs": [
+        "suomi / suomen kieli",
+        " Swedish"
+      ],
+      "localname": [
+        "Suomi",
+        " Finland"
+      ]
+    },
+    {
+      "name": "France",
+      "iso": "fr",
+      "flagurl": "https://www.worldometers.info/img/flags/fr-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "France"
+      ]
+    },
+    {
+      "name": "French Guiana",
+      "iso": "gf",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_French_Guiana.svg/1280px-Flag_of_French_Guiana.svg.png",
+      "langs": ["français"],
+      "localname": ["Guyane"]
+    },
+    {
+      "name": "French Polynesia",
+      "iso": "pf",
+      "flagurl": "https://www.worldometers.info/img/flags/fr-flag.gif",
+      "langs": ["français"],
+      "localname": ""
+    },
+    {
+      "name": "French Southern Territories",
+      "iso": "tf",
+      "flagurl": "https://www.worldometers.info/img/flags/fr-flag.gif",
+      "langs": ["français"],
+      "localname": ""
+    },
+    {
+      "name": "Gabon",
+      "iso": "ga",
+      "flagurl": "https://www.worldometers.info/img/flags/gb-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "R\u00e9publique gabonaise"
+      ]
+    },
+    {
+      "name": "Gambia",
+      "iso": "gm",
+      "flagurl": "https://www.worldometers.info/img/flags/ga-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "The Gambia"
+      ]
+    },
+    {
+      "name": "Georgia",
+      "iso": "ge",
+      "flagurl": "https://www.worldometers.info/img/flags/gg-flag.gif",
+      "langs": [
+        "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 (k\u02bbart\u02bbuli) \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d4\u10dc\u10d0 (k\u02bbart\u02bbuli ena)"
+      ],
+      "localname": [
+        "Sak'art'velo \u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd"
+      ]
+    },
+    {
+      "name": "Germany",
+      "iso": "de",
+      "flagurl": "https://www.worldometers.info/img/flags/gm-flag.gif",
+      "langs": [
+        "Deutsch"
+      ],
+      "localname": [
+        "Deutschland"
+      ]
+    },
+    {
+      "name": "Ghana",
+      "iso": "gh",
+      "flagurl": "https://www.worldometers.info/img/flags/gh-flag.gif",
+      "langs": [
+        "akan",
+        " English",
+        " Ewe",
+        " Twi"
+      ],
+      "localname": [
+        "Gaana",
+        " Ghana",
+        " Gana",
+        " Gana"
+      ]
+    },
+    {
+      "name": "Gibraltar",
+      "iso": "gi",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Greece",
+      "iso": "gr",
+      "flagurl": "https://www.worldometers.info/img/flags/gr-flag.gif",
+      "langs": [
+        "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac (ell\u0113nik\u00e1)"
+      ],
+      "localname": [
+        "Hellas \u0395\u03bb\u03bb\u03ac\u03c2"
+      ]
+    },
+    {
+      "name": "Greenland",
+      "iso": "gl",
+      "flagurl": "https://landadmin.trimble.com/wp-content/uploads/2006/05/Greenland-flag-300x199.png",
+      "langs": [],
+      "localname": [
+        "Nuuk",
+        "Godthåb"
+      ]
+    },
+    {
+      "name": "Grenada",
+      "iso": "gd",
+      "flagurl": "https://www.worldometers.info/img/flags/gj-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Grenada"
+      ]
+    },
+    {
+      "name": "Guadeloupe",
+      "iso": "gp",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Guadeloupe_%28UPLG%29.svg/640px-Flag_of_Guadeloupe_%28UPLG%29.svg.png",
+      "langs": [],
+      "localname": "Guadeloupe"
+    },
+    {
+      "name": "Guam",
+      "iso": "gu",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Flag_of_Guam.svg/1200px-Flag_of_Guam.svg.png",
+      "langs": [],
+      "localname": "Guam"
+    },
+    {
+      "name": "Guatemala",
+      "iso": "gt",
+      "flagurl": "https://www.worldometers.info/img/flags/gt-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Guatemala"
+      ]
+    },
+    {
+      "name": "Guernsey",
+      "iso": "gg",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Guinea",
+      "iso": "gn",
+      "flagurl": "https://i.pinimg.com/originals/7f/42/03/7f42037bbafbb2f5e32619f45d9a24b6.gif",
+      "langs": [
+        "French",
+        "Maninka",
+        "Susu Pular"
+      ],
+      "localname": [
+        "Guinée",
+        "Gine",
+        "Gine"
+      ]
+    },
+    {
+      "name": "Guinea-Bissau",
+      "iso": "gw",
+      "flagurl": "https://www.worldometers.info/img/flags/pu-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " Manika",
+        " Pular"
+      ],
+      "localname": [
+        "Guin\u00e9e",
+        " Gine",
+        " Gine"
+      ]
+    },
+    {
+      "name": "Guyana",
+      "iso": "gy",
+      "flagurl": "https://www.worldometers.info/img/flags/gy-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Guyana"
+      ]
+    },
+    {
+      "name": "Haiti",
+      "iso": "ht",
+      "flagurl": "https://www.worldometers.info/img/flags/ha-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " Haitian Creole"
+      ],
+      "localname": [
+        "Ha\u00efti",
+        " Ayiti"
+      ]
+    },
+    {
+      "name": "Heard Island and McDonald Islands",
+      "iso": "hm",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Holy See",
+      "iso": "va",
+      "flagurl": "https://www.worldometers.info/img/flags/vt-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Honduras",
+      "iso": "hn",
+      "flagurl": "https://www.worldometers.info/img/flags/ho-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Honduras"
+      ]
+    },
+    {
+      "name": "Hong Kong",
+      "iso": "hk",
+      "flagurl": "",
+      "langs": [
+        "English",
+        " Cantonese"
+      ],
+      "localname": [
+        "Hong Kong",
+        " Heung Gong",
+        " \u9999\u6e2f"
+      ]
+    },
+    {
+      "name": "Hungary",
+      "iso": "hu",
+      "flagurl": "https://www.worldometers.info/img/flags/hu-flag.gif",
+      "langs": [
+        "magyar / magyar nyelv"
+      ],
+      "localname": [
+        "Magyarorsz\u00e1g"
+      ]
+    },
+    {
+      "name": "Iceland",
+      "iso": "is",
+      "flagurl": "https://www.worldometers.info/img/flags/ic-flag.gif",
+      "langs": [
+        "\u00cdslenska"
+      ],
+      "localname": [
+        "\u00cdsland"
+      ]
+    },
+    {
+      "name": "India",
+      "iso": "in",
+      "flagurl": "https://www.worldometers.info/img/flags/in-flag.gif",
+      "langs": [
+        "\u0985\u09b8\u09ae\u09c0\u09df\u09be (asam\u012by\u0307a)",
+        " Bengali",
+        " English",
+        " Hindi",
+        " Kannada",
+        " Konkai",
+        " Malayalam",
+        " Marthi",
+        " Nepalese",
+        " Oriya",
+        " Punjabi",
+        " Sanskrit",
+        " Tamil",
+        " Telugu"
+      ],
+      "localname": [
+        "Bhar\u00f4t \u09ad\u09be\u09f0\u09a4",
+        " Bhar\u00f4t \u09ad\u09be\u09b0\u09a4",
+        " India",
+        " Bh\u0101rat \u0aad\u0abe\u0ab0\u0aa4",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bh\u0101rata \u0cad\u0cbe\u0cb0\u0ca4",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bh\u0101ratam \u0d2d\u0d3e\u0d30\u0d24\u0d02",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bh\u0101rat \u092d\u093e\u0930\u0924",
+        " Bhar\u00f4t\u00f4  \u0b2d\u0b3e\u0b30\u0b24",
+        " Bh\u0101rat \u0a2d\u0a3e\u0a30\u0a24",
+        " Bh\u0101ratam \u092d\u093e\u0930\u0924\u092e\u094d",
+        " B\u0101rata \u0baa\u0bbe\u0bb0\u0ba4\u0bae\u0bcd",
+        " Bh\u0101ratad\u0113sam \u0c2d\u0c3e\u0c30\u0c24 \u0c26\u0c47\u0c36\u0c02"
+      ]
+    },
+    {
+      "name": "Indonesia",
+      "iso": "id",
+      "flagurl": "https://www.worldometers.info/img/flags/id-flag.gif",
+      "langs": [
+        "Bahasa Indonesia"
+      ],
+      "localname": [
+        "Indonesia"
+      ]
+    },
+    {
+      "name": "Iran",
+      "iso": "ir",
+      "flagurl": "https://www.worldometers.info/img/flags/ir-flag.gif",
+      "langs": [
+        "(f\u0101rs\u012b) \u0641\u0627\u0631\u0633\u0649"
+      ],
+      "localname": [
+        "\u012ar\u0101n \u0627\u06cc\u0631\u0627\u0646"
+      ]
+    },
+    {
+      "name": "Iraq",
+      "iso": "iq",
+      "flagurl": "https://www.worldometers.info/img/flags/iz-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Kurdish"
+      ],
+      "localname": [
+        "Al-'Iraq \u0627\u0644\u0639\u0631\u0627\u0642"
+      ]
+    },
+    {
+      "name": "Ireland",
+      "iso": "ie",
+      "flagurl": "https://www.worldometers.info/img/flags/ei-flag.gif",
+      "langs": [
+        "English",
+        " Irish"
+      ],
+      "localname": [
+        "Ireland",
+        " \u00c9ire"
+      ]
+    },
+    {
+      "name": "Isle of Man",
+      "iso": "im",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Israel",
+      "iso": "il",
+      "flagurl": "https://www.worldometers.info/img/flags/is-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Hebrew"
+      ],
+      "localname": [
+        "Isra\u02bciyl \u0625\u0633\u0631\u0627\u0626\u064a\u0644",
+        " Yisra'el \u05d9\u05e9\u05e8\u05d0\u05dc"
+      ]
+    },
+    {
+      "name": "Italy",
+      "iso": "it",
+      "flagurl": "https://www.worldometers.info/img/flags/it-flag.gif",
+      "langs": [
+        "italiano"
+      ],
+      "localname": [
+        "Italia"
+      ]
+    },
+    {
+      "name": "Jamaica",
+      "iso": "jm",
+      "flagurl": "https://www.worldometers.info/img/flags/jm-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Jamaica"
+      ]
+    },
+    {
+      "name": "Japan",
+      "iso": "jp",
+      "flagurl": "https://www.worldometers.info/img/flags/ja-flag.gif",
+      "langs": [
+        "\u65e5\u672c\u8a9e (nihongo)"
+      ],
+      "localname": [
+        "Nippon \u65e5\u672c"
+      ]
+    },
+    {
+      "name": "Jersey",
+      "iso": "je",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Jordan",
+      "iso": "jo",
+      "flagurl": "https://www.worldometers.info/img/flags/jo-flag.gif",
+      "langs": [
+        "Arabic "
+      ],
+      "localname": [
+        "Al-'Urdun \u0627\u0644\u0623\u0631\u062f\u0646"
+      ]
+    },
+    {
+      "name": "Kazakhstan",
+      "iso": "kz",
+      "flagurl": "https://www.worldometers.info/img/flags/kz-flag.gif",
+      "langs": [
+        "\u049a\u0430\u0437\u0430\u049b \u0442\u0456\u043b\u0456 / Qazaq tili / \u0642\u0627\u0632\u0627\u0642 \u0674\u062a\u0649\u0644\u0649",
+        " Russian "
+      ],
+      "localname": [
+        "Qazaqstan \u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d",
+        " Kazakhst\u00e1n \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d"
+      ]
+    },
+    {
+      "name": "Kenya",
+      "iso": "ke",
+      "flagurl": "https://www.worldometers.info/img/flags/ke-flag.gif",
+      "langs": [
+        "English",
+        " Swahili"
+      ],
+      "localname": [
+        "Kenya"
+      ]
+    },
+    {
+      "name": "Kiribati",
+      "iso": "ki",
+      "flagurl": "https://www.worldometers.info/img/flags/kr-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "North Korea",
+      "iso": "kp",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/1200px-Flag_of_North_Korea.svg.png",
+      "langs": [
+        "\ud55c\uad6d\uc5b4 [\u97d3\u570b\u8a9e] (han-guk-eo)"
+      ],
+      "localname": [
+        "Chos\u014fn \uc870\uc120 Bukchos\u014fn \ubd81\uc870\uc120"
+      ]
+    },
+    {
+      "name": "South Korea",
+      "iso": "kr",
+      "flagurl": "https://www.worldometers.info/img/flags/ks-flag.gif",
+      "langs": [
+        "\ud55c\uad6d\uc5b4 [\u97d3\u570b\u8a9e] (han-guk-eo)"
+      ],
+      "localname": [
+        "Hanguk \ud55c\uad6d Namhan \ub0a8\ud55c"
+      ]
+    },
+    {
+      "name": "Kuwait",
+      "iso": "kw",
+      "flagurl": "https://www.worldometers.info/img/flags/ku-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "Dawlat ul-Kuwayt \u062f\u0648\u0644\u0629 \u0627\u0644\u0643\u0648\u064a\u062a"
+      ]
+    },
+    {
+      "name": "Kyrgyzstan",
+      "iso": "kg",
+      "flagurl": "https://www.worldometers.info/img/flags/kg-flag.gif",
+      "langs": [
+        "\u0642\u0649\u0631\u0639\u0649\u0632 (kyrgyz) \u0642\u0649\u0631\u0639\u0649\u0632 \u062a\u0649\u0644\u0649 (kyrgyz tili)",
+        " Russian "
+      ],
+      "localname": [
+        "Kyrgyzstan \u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+        " Kirgizija \u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f"
+      ]
+    },
+    {
+      "name": "Lao People's Democratic Republic",
+      "iso": "la",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/1200px-Flag_of_Laos.svg.png",
+      "langs": [],
+      "localname": ["\u0E9B\u0EB0\u0EC0\u0E97\u0E94\u0EA5\u0EB2\u0EA7"]
+    },
+    {
+      "name": "Latvia",
+      "iso": "lv",
+      "flagurl": "https://www.worldometers.info/img/flags/lg-flag.gif",
+      "langs": [
+        "Latvia"
+      ],
+      "localname": [
+        "Latvija"
+      ]
+    },
+    {
+      "name": "Lebanon",
+      "iso": "lb",
+      "flagurl": "https://www.worldometers.info/img/flags/le-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " French"
+      ],
+      "localname": [
+        "Lubn\u0101n \u0644\u0628\u0646\u0627\u0646",
+        " Liban"
+      ]
+    },
+    {
+      "name": "Lesotho",
+      "iso": "ls",
+      "flagurl": "https://www.worldometers.info/img/flags/lt-flag.gif",
+      "langs": [
+        "English",
+        " Sesotho"
+      ],
+      "localname": [
+        "Lesotho"
+      ]
+    },
+    {
+      "name": "Liberia",
+      "iso": "lr",
+      "flagurl": "https://www.worldometers.info/img/flags/li-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Libya",
+      "iso": "ly",
+      "flagurl": "https://www.worldometers.info/img/flags/ly-flag.gif",
+      "langs": [
+        "Tamazight",
+        " Arabic"
+      ],
+      "localname": [
+        "Libya",
+        " L\u012bbiy\u0101 \u0644\u064a\u0628\u064a\u0627"
+      ]
+    },
+    {
+      "name": "Liechtenstein",
+      "iso": "li",
+      "flagurl": "https://www.worldometers.info/img/flags/ls-flag.gif",
+      "langs": [
+        "Deutsch"
+      ],
+      "localname": [
+        "Liechtenstein"
+      ]
+    },
+    {
+      "name": "Lithuania",
+      "iso": "lt",
+      "flagurl": "https://www.worldometers.info/img/flags/lh-flag.gif",
+      "langs": [
+        "lietuvi\u0173 kalba"
+      ],
+      "localname": [
+        "Lietuva"
+      ]
+    },
+    {
+      "name": "Luxembourg",
+      "iso": "lu",
+      "flagurl": "https://www.worldometers.info/img/flags/lu-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " German",
+        " Luxembourgish"
+      ],
+      "localname": [
+        "Luxembourg",
+        " Luxemburg",
+        " L\u00ebtezebuerg"
+      ]
+    },
+    {
+      "name": "Macao",
+      "iso": "mo",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Madagascar",
+      "iso": "mg",
+      "flagurl": "https://www.worldometers.info/img/flags/ma-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " Malagasy"
+      ],
+      "localname": [
+        "Madagascar",
+        " Madagasikara"
+      ]
+    },
+    {
+      "name": "Malawi",
+      "iso": "mw",
+      "flagurl": "https://www.worldometers.info/img/flags/mi-flag.gif",
+      "langs": [
+        "Chiche\u0175a",
+        " English"
+      ],
+      "localname": [
+        "Mala\u0175i",
+        " Malawi"
+      ]
+    },
+    {
+      "name": "Malaysia",
+      "iso": "my",
+      "flagurl": "https://www.worldometers.info/img/flags/my-flag.gif",
+      "langs": [
+        "Mandarin Chinese",
+        " Malay",
+        " Tamil"
+      ],
+      "localname": [
+        "M\u01cel\u00e1ix\u012by\u00e0 \u9a6c\u6765\u897f\u4e9a",
+        " Malaysia",
+        "  \u0bae\u0bb2\u0bc7\u0b9a\u0bbf\u0baf\u0bbe"
+      ]
+    },
+    {
+      "name": "Maldives",
+      "iso": "mv",
+      "flagurl": "https://www.worldometers.info/img/flags/mv-flag.gif",
+      "langs": [
+        "Dhivehi"
+      ],
+      "localname": [
+        "Dhivehi Raajje"
+      ]
+    },
+    {
+      "name": "Mali",
+      "iso": "ml",
+      "flagurl": "https://www.worldometers.info/img/flags/ml-flag.gif",
+      "langs": [
+        "Bamanankan",
+        " French"
+      ],
+      "localname": [
+        "Mali",
+        " Mali"
+      ]
+    },
+    {
+      "name": "Malta",
+      "iso": "mt",
+      "flagurl": "https://www.worldometers.info/img/flags/mt-flag.gif",
+      "langs": [
+        "English",
+        " Maltese"
+      ],
+      "localname": [
+        "Malta",
+        " Malta"
+      ]
+    },
+    {
+      "name": "Marshall Islands",
+      "iso": "mh",
+      "flagurl": "https://www.worldometers.info/img/flags/rm-flag.gif",
+      "langs": [
+        "English",
+        " Marshallese"
+      ],
+      "localname": [
+        "Marshall Islands",
+        " Aor\u014dkin M\u0327aje\u013c"
+      ]
+    },
+    {
+      "name": "Martinique",
+      "iso": "mq",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Mauritania",
+      "iso": "mr",
+      "flagurl": "https://www.worldometers.info/img/flags/mr-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Berer"
+      ],
+      "localname": [
+        "Muritan / Agawec",
+        " M\u016br\u012bt\u0101ny\u0101 \u0645\u0648\u0631\u064a\u062a\u0627\u0646\u064a\u0627"
+      ]
+    },
+    {
+      "name": "Mauritius",
+      "iso": "mu",
+      "flagurl": "https://www.worldometers.info/img/flags/mp-flag.gif",
+      "langs": [
+        "English",
+        " French",
+        " Mauritian Creole"
+      ],
+      "localname": [
+        "Mauritius",
+        " Maurice",
+        " Moris"
+      ]
+    },
+    {
+      "name": "Mayotte",
+      "iso": "yt",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Mexico",
+      "iso": "mx",
+      "flagurl": "https://www.worldometers.info/img/flags/mx-flag.gif",
+      "langs": [
+        "n\u0101huatl / nawatlahtolli",
+        " Spanish"
+      ],
+      "localname": [
+        "M\u0113xihco",
+        " M\u00e9xico"
+      ]
+    },
+    {
+      "name": "Micronesia",
+      "iso": "fm",
+      "flagurl": "https://www.worldometers.info/img/flags/fm-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Federated States of Micronesia"
+      ]
+    },
+    {
+      "name": "Moldova",
+      "iso": "md",
+      "flagurl": "https://www.worldometers.info/img/flags/md-flag.gif",
+      "langs": [
+        "limba rom\u00e2n\u0103 / rom\u00e2n"
+      ],
+      "localname": [
+        "Moldova"
+      ]
+    },
+    {
+      "name": "Monaco",
+      "iso": "mc",
+      "flagurl": "https://www.worldometers.info/img/flags/mn-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " Mon\u00e9gasque"
+      ],
+      "localname": [
+        "Monaca",
+        " M\u00fanegu"
+      ]
+    },
+    {
+      "name": "Mongolia",
+      "iso": "mn",
+      "flagurl": "https://www.worldometers.info/img/flags/mg-flag.gif",
+      "langs": [
+        "Mongolia "
+      ],
+      "localname": [
+        "Mongol Uls \u041c\u043e\u043d\u0433\u043e\u043b \u0423\u043b\u0441"
+      ]
+    },
+    {
+      "name": "Montenegro",
+      "iso": "me",
+      "flagurl": "https://www.worldometers.info/img/flags/mj-flag.gif",
+      "langs": [
+        "Montenegrin"
+      ],
+      "localname": [
+        "Crna Gora \u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430"
+      ]
+    },
+    {
+      "name": "Montserrat",
+      "iso": "ms",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Morocco",
+      "iso": "ma",
+      "flagurl": "https://www.worldometers.info/img/flags/mo-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Berber"
+      ],
+      "localname": [
+        "Al-ma\u0263r\u00e9b \u0627\u0644\u0645\u063a\u0631\u0628",
+        " Amerruk / Elme\u0263rib"
+      ]
+    },
+    {
+      "name": "Mozambique",
+      "iso": "mz",
+      "flagurl": "https://www.worldometers.info/img/flags/mz-flag.gif",
+      "langs": [
+        "portugu\u00eas"
+      ],
+      "localname": [
+        "Mo\u00e7ambique"
+      ]
+    },
+    {
+      "name": "Myanmar",
+      "iso": "mm",
+      "flagurl": "https://www.worldometers.info/img/flags/bm-flag.gif",
+      "langs": [
+        "\u1017\u1019\u102c\u1005\u1000\u102c\u1038 (bama saka)"
+      ],
+      "localname": [
+        "Myanma \u1019\u103c\u1014\u103a\u1019\u102c"
+      ]
+    },
+    {
+      "name": "Namibia",
+      "iso": "na",
+      "flagurl": "https://www.worldometers.info/img/flags/wa-flag.gif",
+      "langs": [
+        "Afrikaans",
+        " Engish",
+        " Damara",
+        " German",
+        " Herero"
+      ],
+      "localname": [
+        "Namibia",
+        " Namibia",
+        " Namibia",
+        " Namibia",
+        " Namibia"
+      ]
+    },
+    {
+      "name": "Nauru",
+      "iso": "nr",
+      "flagurl": "https://www.worldometers.info/img/flags/nr-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Nepal",
+      "iso": "np",
+      "flagurl": "https://www.worldometers.info/img/flags/np-flag.gif",
+      "langs": [
+        "Davanagari",
+        " Nepalese"
+      ],
+      "localname": [
+        "Nep\u0101l \u0928\u0947\u092a\u093e\u0932"
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "iso": "nl",
+      "flagurl": "https://www.worldometers.info/img/flags/nl-flag.gif",
+      "langs": [
+        "Nederlands",
+        " West Frisian"
+      ],
+      "localname": [
+        "Nederland",
+        " Nederl\u00e2n"
+      ]
+    },
+    {
+      "name": "New Caledonia",
+      "iso": "nc",
+      "flagurl": "https://www.fotw.info/images/n/nc%7Dflnks.gif",
+      "langs": [],
+      "localname": ["Nouvelle-Calédonie"]
+    },
+    {
+      "name": "New Zealand",
+      "iso": "nz",
+      "flagurl": "https://www.worldometers.info/img/flags/nz-flag.gif",
+      "langs": [
+        "English",
+        " M\u0101ori"
+      ],
+      "localname": [
+        "New Zealand",
+        " Aotearoa"
+      ]
+    },
+    {
+      "name": "Nicaragua",
+      "iso": "ni",
+      "flagurl": "https://www.worldometers.info/img/flags/nu-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Nicaragua"
+      ]
+    },
+    {
+      "name": "Niger",
+      "iso": "ne",
+      "flagurl": "https://www.worldometers.info/img/flags/ni-flag.gif",
+      "langs": [
+        "English",
+        " Hausa",
+        " Igbo",
+        " Yoruba"
+      ],
+      "localname": [
+        "Nigeria",
+        " Nijeriya",
+        " Naigeria",
+        " N\u00e0\u00ecj\u00edr\u00ed\u00e0"
+      ]
+    },
+    {
+      "name": "Nigeria",
+      "iso": "ng",
+      "flagurl": "https://www.worldometers.info/img/flags/ni-flag.gif",
+      "langs": [
+        "English",
+        " Hausa",
+        " Igbo",
+        " Yoruba"
+      ],
+      "localname": [
+        "Nigeria",
+        " Nijeriya",
+        " Naigeria",
+        " N\u00e0\u00ecj\u00edr\u00ed\u00e0"
+      ]
+    },
+    {
+      "name": "Niue",
+      "iso": "nu",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Norfolk Island",
+      "iso": "nf",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "iso": "mp",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Norway",
+      "iso": "no",
+      "flagurl": "https://www.worldometers.info/img/flags/no-flag.gif",
+      "langs": [
+        "Norsk"
+      ],
+      "localname": [
+        "Norge"
+      ]
+    },
+    {
+      "name": "Oman",
+      "iso": "om",
+      "flagurl": "https://www.worldometers.info/img/flags/mu-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "\u2018Um\u0101n \u0639\u064f\u0645\u0627\u0646"
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "iso": "pk",
+      "flagurl": "https://www.worldometers.info/img/flags/pk-flag.gif",
+      "langs": [
+        "English",
+        " Urdu"
+      ],
+      "localname": [
+        "P\u0101kist\u0101n \u067e\u0627\u06a9\u0633\u062a\u0627\u0646"
+      ]
+    },
+    {
+      "name": "Palau",
+      "iso": "pw",
+      "flagurl": "https://www.worldometers.info/img/flags/ps-flag.gif",
+      "langs": [
+        "English",
+        " Palauan"
+      ],
+      "localname": [
+        "Palau",
+        " Belau"
+      ]
+    },
+    {
+      "name": "Palestine",
+      "iso": "ps",
+      "flagurl": "https://www.worldometers.info/img/flags/palestine-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "Filas\u1e6d\u012bn \u0641\u0644\u0633\u0637\u064a\u0646"
+      ]
+    },
+    {
+      "name": "Panama",
+      "iso": "pa",
+      "flagurl": "https://www.worldometers.info/img/flags/pm-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Panam\u00e1"
+      ]
+    },
+    {
+      "name": "Papua New Guinea",
+      "iso": "pg",
+      "flagurl": "https://www.worldometers.info/img/flags/pp-flag.gif",
+      "langs": [
+        "English",
+        " Hiri Motu",
+        " Tok Pisin"
+      ],
+      "localname": [
+        "Papua New Guinea",
+        " Papua Niugini",
+        " Papua Giugini"
+      ]
+    },
+    {
+      "name": "Paraguay",
+      "iso": "py",
+      "flagurl": "https://www.worldometers.info/img/flags/pa-flag.gif",
+      "langs": [
+        "Guaran\u00ed",
+        " Spanish"
+      ],
+      "localname": [
+        "Paragu\u00e1i",
+        " Paraguay"
+      ]
+    },
+    {
+      "name": "Peru",
+      "iso": "pe",
+      "flagurl": "https://www.worldometers.info/img/flags/pe-flag.gif",
+      "langs": [
+        "aymar aru",
+        " Spanish"
+      ],
+      "localname": [
+        "Piruw",
+        " Per\u00fa"
+      ]
+    },
+    {
+      "name": "Philippines",
+      "iso": "ph",
+      "flagurl": "https://www.worldometers.info/img/flags/rp-flag.gif",
+      "langs": [
+        "English",
+        " Filipino"
+      ],
+      "localname": [
+        "Philippines",
+        " Pilipinas"
+      ]
+    },
+    {
+      "name": "Pitcairn",
+      "iso": "pn",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Poland",
+      "iso": "pl",
+      "flagurl": "https://www.worldometers.info/img/flags/pl-flag.gif",
+      "langs": [
+        "polski / j\u0119zyk polski / polszczyzna"
+      ],
+      "localname": [
+        "Polska"
+      ]
+    },
+    {
+      "name": "Portugal",
+      "iso": "pt",
+      "flagurl": "https://www.worldometers.info/img/flags/po-flag.gif",
+      "langs": [],
+      "localname": ["Portugal"]
+    },
+    {
+      "name": "Puerto Rico",
+      "iso": "pr",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Qatar",
+      "iso": "qa",
+      "flagurl": "https://www.worldometers.info/img/flags/qa-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "Qa\u1e6dar \u0642\u0637\u0631"
+      ]
+    },
+    {
+      "name": "Republic of North Macedonia",
+      "iso": "mk",
+      "flagurl": "https://www.worldometers.info/img/flags/mk-flag.gif",
+      "langs": [
+        "\u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 (Makedonski) \u043c\u0430\u043a\u0435\u0434\u043e\u043d\u0441\u043a\u0438 \u0458\u0430\u0437\u0438\u043a (makedonski jazik)"
+      ],
+      "localname": [
+        "Severna Makedonija \u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+      ]
+    },
+    {
+      "name": "Romania",
+      "iso": "ro",
+      "flagurl": "https://www.worldometers.info/img/flags/ro-flag.gif",
+      "langs": [
+        "limba rom\u00e2n\u0103 / rom\u00e2n"
+      ],
+      "localname": [
+        "Rom\u00e2nia"
+      ]
+    },
+    {
+      "name": "Russia",
+      "iso": "ru",
+      "flagurl": "https://www.worldometers.info/img/flags/rs-flag.gif",
+      "langs": [
+        "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a (Russkij jazyk)"
+      ],
+      "localname": [
+        "Rossi\u00e2 \u0420\u043e\u0441\u0441\u0438\u044f"
+      ]
+    },
+    {
+      "name": "Rwanda",
+      "iso": "rw",
+      "flagurl": "https://www.worldometers.info/img/flags/rw-flag.gif",
+      "langs": [
+        "English",
+        " French",
+        " Kinyarwanda",
+        " Swahili"
+      ],
+      "localname": [
+        "Rwanda"
+      ]
+    },
+    {
+      "name": "R\u00e9union",
+      "iso": "re",
+      "flagurl": "https://www.worldometers.info/img/flags/fr-flag.gif",
+      "langs": [],
+      "localname": ["Réunion"]
+    },
+    {
+      "name": "Saint Barth\u00e9lemy",
+      "iso": "bl",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "iso": "sh",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "iso": "kn",
+      "flagurl": "https://www.worldometers.info/img/flags/sc-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Saint Kitts and Nevis"
+      ]
+    },
+    {
+      "name": "Saint Lucia",
+      "iso": "lc",
+      "flagurl": "https://www.worldometers.info/img/flags/st-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Saint Lucia"
+      ]
+    },
+    {
+      "name": "Saint Martin",
+      "iso": "mf",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "iso": "pm",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "iso": "vc",
+      "flagurl": "",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Saint Vincent and the Grenadines"
+      ]
+    },
+    {
+      "name": "Samoa",
+      "iso": "ws",
+      "flagurl": "https://www.worldometers.info/img/flags/ws-flag.gif",
+      "langs": [
+        "English",
+        " Samoan"
+      ],
+      "localname": [
+        "Samoa",
+        " S\u0101moa"
+      ]
+    },
+    {
+      "name": "San Marino",
+      "iso": "sm",
+      "flagurl": "https://www.worldometers.info/img/flags/sm-flag.gif",
+      "langs": [
+        "italiano"
+      ],
+      "localname": [
+        "San Marino"
+      ]
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "iso": "st",
+      "flagurl": "https://www.worldometers.info/img/flags/tp-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Saudi Arabia",
+      "iso": "sa",
+      "flagurl": "https://www.worldometers.info/img/flags/sa-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "Al-\u2018Arabiyyah as Sa\u2018\u016bdiyyah \u0627\u0644\u0645\u0645\u0644\u0643\u0629 \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+      ]
+    },
+    {
+      "name": "Senegal",
+      "iso": "sn",
+      "flagurl": "https://www.worldometers.info/img/flags/sg-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "S\u00e9n\u00e9gal"
+      ]
+    },
+    {
+      "name": "Serbia",
+      "iso": "rs",
+      "flagurl": "https://www.worldometers.info/img/flags/ri-flag.gif",
+      "langs": [
+        "\u0441\u0440\u043f\u0441\u043a\u0438 (srpski) \u0441\u0440\u043f\u0441\u043a\u0438 \u0458\u0435\u0437\u0438\u043a (srpski jezik)"
+      ],
+      "localname": [
+        "Srbija \u0421\u0440\u0431\u0438\u0458\u0430"
+      ]
+    },
+    {
+      "name": "Seychelles",
+      "iso": "sc",
+      "flagurl": "https://www.worldometers.info/img/flags/se-flag.gif",
+      "langs": [
+        "English",
+        " French",
+        " Seychellois Creole"
+      ],
+      "localname": [
+        "Seychelles",
+        " Seychelles",
+        " Sesel"
+      ]
+    },
+    {
+      "name": "Sierra Leone",
+      "iso": "sl",
+      "flagurl": "https://www.worldometers.info/img/flags/sl-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Sierra Leone"
+      ]
+    },
+    {
+      "name": "Singapore",
+      "iso": "sg",
+      "flagurl": "https://www.worldometers.info/img/flags/sn-flag.gif",
+      "langs": [
+        "English",
+        " Malay",
+        " Mandarin Chinese",
+        " Tamil"
+      ],
+      "localname": [
+        "Singapore",
+        " Singapura",
+        " \u65b0\u52a0\u5761",
+        " \u0b9a\u0bbf\u0b99\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0bc2\u0bb0\u0bcd"
+      ]
+    },
+    {
+      "name": "Sint Maarten",
+      "iso": "sx",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Slovakia",
+      "iso": "sk",
+      "flagurl": "https://www.worldometers.info/img/flags/lo-flag.gif",
+      "langs": [
+        "sloven\u010dina"
+      ],
+      "localname": [
+        "Slovensko"
+      ]
+    },
+    {
+      "name": "Slovenia",
+      "iso": "si",
+      "flagurl": "https://www.worldometers.info/img/flags/si-flag.gif",
+      "langs": [
+        "Slovene"
+      ],
+      "localname": [
+        "Slovenija"
+      ]
+    },
+    {
+      "name": "Solomon Islands",
+      "iso": "sb",
+      "flagurl": "https://www.worldometers.info/img/flags/bp-flag.gif",
+      "langs": [
+        "Englih",
+        " Neo-Solomonic"
+      ],
+      "localname": [
+        "Solomon Islands",
+        " Solomon Aelan"
+      ]
+    },
+    {
+      "name": "Somalia",
+      "iso": "so",
+      "flagurl": "https://www.worldometers.info/img/flags/so-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        " Somali"
+      ],
+      "localname": [
+        "Soomaaliya\na\u015f-\u015e\u016bm\u0101l",
+        " \u0627\u0644\u0635\u0648\u0645\u0627\u0644"
+      ]
+    },
+    {
+      "name": "South Africa",
+      "iso": "za",
+      "flagurl": "https://www.worldometers.info/img/flags/sf-flag.gif",
+      "langs": [
+        "Afrikaans",
+        " English",
+        " isiZulu",
+        " isiXhoas",
+        " Pedi",
+        " Sotho",
+        " Tswana",
+        " Venda",
+        " Tsonga",
+        " Swazi",
+        " Ndebele"
+      ],
+      "localname": [
+        "Suid-Afrika",
+        " South Africa",
+        " iNingizimu Afrika",
+        " uMzantsi Afrika",
+        " Afrika-Borwa",
+        " Afrika Borwa",
+        " Aforika Borwa",
+        " Afurika Tshipembe",
+        " Afrika Dzonga",
+        " iNingizimu Afrika",
+        " iSewula Afrika"
+      ]
+    },
+    {
+      "name": "South Georgia and the South Sandwich Islands",
+      "iso": "gs",
+      "flagurl": "https://www.worldometers.info/img/flags/gg-flag.gif",
+      "langs": [
+        "\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 (k\u02bbart\u02bbuli) \u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10d4\u10dc\u10d0 (k\u02bbart\u02bbuli ena)"
+      ],
+      "localname": [
+        "Sak'art'velo \u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd"
+      ]
+    },
+    {
+      "name": "South Sudan",
+      "iso": "ss",
+      "flagurl": "https://www.worldometers.info/img/flags/su-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "As-Sudan \u0627\u0644\u0633\u0648\u062f\u0627\u0646"
+      ]
+    },
+    {
+      "name": "Spain",
+      "iso": "es",
+      "flagurl": "https://www.worldometers.info/img/flags/sp-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano",
+        " Catalan",
+        " Basque"
+      ],
+      "localname": [
+        "Espa\u00f1a",
+        " Espanya",
+        " Espainia"
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "iso": "lk",
+      "flagurl": "https://www.worldometers.info/img/flags/ce-flag.gif",
+      "langs": [
+        "\u0dc3\u0dd2\u0d82\u0dc4\u0dbd (s\u0129hala)",
+        " Tamil"
+      ],
+      "localname": [
+        "Sri Lank\u0101 \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0dbd\u0d82\u0d9a\u0dcf\u0dc0 \u0b87\u0bb2\u0b99\u0bcd\u0b95\u0bc8"
+      ]
+    },
+    {
+      "name": "Sudan",
+      "iso": "sd",
+      "flagurl": "https://www.worldometers.info/img/flags/su-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "As-Sudan \u0627\u0644\u0633\u0648\u062f\u0627\u0646"
+      ]
+    },
+    {
+      "name": "Suriname",
+      "iso": "sr",
+      "flagurl": "https://www.worldometers.info/img/flags/ns-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "iso": "sj",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Sweden",
+      "iso": "se",
+      "flagurl": "https://www.worldometers.info/img/flags/sw-flag.gif",
+      "langs": [
+        "Svenska"
+      ],
+      "localname": [
+        "Sverige"
+      ]
+    },
+    {
+      "name": "Switzerland",
+      "iso": "ch",
+      "flagurl": "https://www.worldometers.info/img/flags/sz-flag.gif",
+      "langs": [
+        "fran\u00e7ais",
+        " German",
+        " Italian",
+        " Romansh"
+      ],
+      "localname": [
+        "Suisse",
+        " Schweiz",
+        " Svizzera",
+        " Svizra"
+      ]
+    },
+    {
+      "name": "Syrian Arab Republic",
+      "iso": "sy",
+      "flagurl": "https://www.worldometers.info/img/flags/sy-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "Suriyah \u0633\u0648\u0631\u064a\u0629"
+      ]
+    },
+    {
+      "name": "Taiwan",
+      "iso": "tw",
+      "flagurl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Flag_of_the_Republic_of_China.svg/1200px-Flag_of_the_Republic_of_China.svg.png",
+      "langs": [],
+      "localname": ["中華民國",
+        "Zhōnghuá Mínguó",
+        "Táiwān",
+        "臺灣/台灣"]
+    },
+    {
+      "name": "Tajikistan",
+      "iso": "tj",
+      "flagurl": "https://www.worldometers.info/img/flags/ti-flag.gif",
+      "langs": [
+        "Tajiki-Persian"
+      ],
+      "localname": [
+        "Tojikistan \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d"
+      ]
+    },
+    {
+      "name": "Tanzania",
+      "iso": "tz",
+      "flagurl": "https://www.worldometers.info/img/flags/tz-flag.gif",
+      "langs": [
+        "English",
+        " Swahili"
+      ],
+      "localname": [
+        "Tanzania"
+      ]
+    },
+    {
+      "name": "Thailand",
+      "iso": "th",
+      "flagurl": "https://www.worldometers.info/img/flags/th-flag.gif",
+      "langs": [
+        "Thai "
+      ],
+      "localname": [
+        "Mueang Thai",
+        " Prathet Thai",
+        " Ratcha-anachak Thai \u0e40\u0e21\u0e37\u0e2d\u0e07\u0e44\u0e17\u0e22",
+        " \u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+        " \u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22"
+      ]
+    },
+    {
+      "name": "Timor-Leste",
+      "iso": "tl",
+      "flagurl": "https://www.worldometers.info/img/flags/tt-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Togo",
+      "iso": "tg",
+      "flagurl": "https://www.worldometers.info/img/flags/to-flag.gif",
+      "langs": [
+        "E\u028begbe",
+        " French",
+        " Kabiye"
+      ],
+      "localname": [
+        "Togo",
+        " Togo",
+        " Togo"
+      ]
+    },
+    {
+      "name": "Tokelau",
+      "iso": "tk",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Tonga",
+      "iso": "to",
+      "flagurl": "https://www.worldometers.info/img/flags/tn-flag.gif",
+      "langs": [
+        "English",
+        " Tongan"
+      ],
+      "localname": [
+        "Tonga"
+      ]
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "iso": "tt",
+      "flagurl": "https://www.worldometers.info/img/flags/td-flag.gif",
+      "langs": [
+        "English"
+      ],
+      "localname": [
+        "Trinidad and Tobago"
+      ]
+    },
+    {
+      "name": "Tunisia",
+      "iso": "tn",
+      "flagurl": "https://www.worldometers.info/img/flags/ts-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "Tamazight"
+      ],
+      "localname": [
+        "Tunes",
+        " \u062a\u0648\u0646\u0633"
+      ]
+    },
+    {
+      "name": "Turkey",
+      "iso": "tr",
+      "flagurl": "https://www.worldometers.info/img/flags/tu-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Turkmenistan",
+      "iso": "tm",
+      "flagurl": "https://www.worldometers.info/img/flags/tx-flag.gif",
+      "langs": [
+        "\u0442\u04af\u0440\u043am\u0435\u043d\u0447\u0435 (t\u00fcrkmen\u00e7e) \u0442\u04af\u0440\u043a\u043c\u0435\u043d \u0434\u0438\u043b\u0438 (t\u00fcrkmen dili)"
+      ],
+      "localname": [
+        "T\u00fcrkiye"
+      ]
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "iso": "tc",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Tuvalu",
+      "iso": "tv",
+      "flagurl": "https://www.worldometers.info/img/flags/tv-flag.gif",
+      "langs": [
+        "English",
+        " Tuvaluan"
+      ],
+      "localname": [
+        "Tuvalu"
+      ]
+    },
+    {
+      "name": "Uganda",
+      "iso": "ug",
+      "flagurl": "https://www.worldometers.info/img/flags/ug-flag.gif",
+      "langs": [
+        "Enlish",
+        " Swahili"
+      ],
+      "localname": [
+        "Uganda"
+      ]
+    },
+    {
+      "name": "Ukraine",
+      "iso": "ua",
+      "flagurl": "https://www.worldometers.info/img/flags/up-flag.gif",
+      "langs": [
+        "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 (Ukrajins\u2019ka)"
+      ],
+      "localname": [
+        "Ukra\u0457na \u0423\u043a\u0440\u0430\u0457\u043d\u0430"
+      ]
+    },
+    {
+      "name": "United Arab Emirates",
+      "iso": "ae",
+      "flagurl": "",
+      "langs": [
+        "Arabic "
+      ],
+      "localname": [
+        "Al-\u2019Im\u0101rat Al-\u2018Arabiyyah Al-Mutta\u1e25idah \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0651\u0629 \u0627\u0644\u0645\u062a\u0651\u062d\u062f\u0629"
+      ]
+    },
+    {
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "iso": "gb",
+      "flagurl": "https://www.worldometers.info/img/flags/uk-flag.gif",
+      "langs": [
+        "English",
+        " Welsh",
+        " Scots",
+        " Irish"
+      ],
+      "localname": [
+        "United Kingdom",
+        " Y Deyrnas Unedig",
+        " R\u00ecoghachd Aonaichte",
+        " R\u00edocht Aontaithe"
+      ]
+    },
+    {
+      "name": "United States Minor Outlying Islands",
+      "iso": "um",
+      "flagurl": "",
+      "langs": [
+        "English",
+        " Spanish"
+      ],
+      "localname": [
+        "United States",
+        " Estados Unidos"
+      ]
+    },
+    {
+      "name": "United States of America",
+      "iso": "us",
+      "flagurl": "https://www.worldometers.info/img/flags/us-flag.gif",
+      "langs": [
+        "English",
+        " Spanish"
+      ],
+      "localname": [
+        "United States",
+        " Estados Unidos"
+      ]
+    },
+    {
+      "name": "Uruguay",
+      "iso": "uy",
+      "flagurl": "https://www.worldometers.info/img/flags/uy-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Uruguay"
+      ]
+    },
+    {
+      "name": "Uzbekistan",
+      "iso": "uz",
+      "flagurl": "https://www.worldometers.info/img/flags/uz-flag.gif",
+      "langs": [
+        "\u0623\u06c7\u0632\u0628\u06d0\u0643 \ufe97\ufef4\ufee0\u06cc o\u2019zbek tili \u045e\u0437\u0431\u0435\u043a \u0442\u0438\u043b\u0438 (o\u2018zbek tili)"
+      ],
+      "localname": [
+        "O\u2018zbekiston \u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d"
+      ]
+    },
+    {
+      "name": "Vanuatu",
+      "iso": "vu",
+      "flagurl": "https://www.worldometers.info/img/flags/nh-flag.gif",
+      "langs": [
+        "fran\u00e7ais"
+      ],
+      "localname": [
+        "Vanuatu"
+      ]
+    },
+    {
+      "name": "Venezuela",
+      "iso": "ve",
+      "flagurl": "https://www.worldometers.info/img/flags/ve-flag.gif",
+      "langs": [
+        "espa\u00f1ol / castellano"
+      ],
+      "localname": [
+        "Venezuela"
+      ]
+    },
+    {
+      "name": "Vietnam",
+      "iso": "vn",
+      "flagurl": "https://www.worldometers.info/img/flags/vm-flag.gif",
+      "langs": [
+        "ti\u1ebfng vi\u1ec7t (\u35c2\u8d8a)"
+      ],
+      "localname": [
+        "Vi\u1ec7t Nam"
+      ]
+    },
+    {
+      "name": "Virgin Islands (British)",
+      "iso": "vg",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Virgin Islands (U.S.)",
+      "iso": "vi",
+      "flagurl": "https://www.worldometers.info/img/flags/us-flag.gif",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Wallis and Futuna",
+      "iso": "wf",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Western Sahara",
+      "iso": "eh",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    },
+    {
+      "name": "Yemen",
+      "iso": "ye",
+      "flagurl": "https://www.worldometers.info/img/flags/ym-flag.gif",
+      "langs": [
+        "(al arabiya) \u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+      ],
+      "localname": [
+        "Al-Yaman \u0627\u0644\u064a\u0645\u0646"
+      ]
+    },
+    {
+      "name": "Zambia",
+      "iso": "zm",
+      "flagurl": "https://www.worldometers.info/img/flags/za-flag.gif",
+      "langs": [
+        "iciBemba / ciBemba / ichiBemba / chiBemba",
+        " Chewa",
+        " English"
+      ],
+      "localname": [
+        "Zambia"
+      ]
+    },
+    {
+      "name": "Zimbabwe",
+      "iso": "zw",
+      "flagurl": "https://www.worldometers.info/img/flags/zi-flag.gif",
+      "langs": [
+        "English",
+        " Shona"
+      ],
+      "localname": [
+        "Zimbabwe"
+      ]
+    },
+    {
+      "name": "\u00c5land Islands",
+      "iso": "ax",
+      "flagurl": "",
+      "langs": [],
+      "localname": ""
+    }
+  ]
+}

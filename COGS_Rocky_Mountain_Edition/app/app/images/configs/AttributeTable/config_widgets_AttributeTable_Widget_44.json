@@ -1,0 +1,527 @@
+{
+  "layerInfos": [
+    {
+      "name": "Immigration Settlement Information - ServiceCanadaLocations",
+      "id": "ImmigrationSettlementInformation_5773",
+      "layer": {
+        "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "ObjectID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "Language",
+            "alias": "Language",
+            "show": true
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Immigration Settlement Information - SettlementInformationCentres",
+      "id": "ImmigrationSettlementInformation_9370",
+      "layer": {
+        "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "ObjectID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Program",
+            "alias": "Program",
+            "show": true
+          },
+          {
+            "name": "Sub__Stream",
+            "alias": "Sub- Stream",
+            "show": true
+          },
+          {
+            "name": "Currently_offered__July_2009_",
+            "alias": "Currently offered (July 2009)",
+            "show": true
+          },
+          {
+            "name": "Service_Type",
+            "alias": "Service Type",
+            "show": true
+          },
+          {
+            "name": "Service_Provider_Name",
+            "alias": "Service Provider Name",
+            "show": true
+          },
+          {
+            "name": "Address_1",
+            "alias": "Address 1",
+            "show": true
+          },
+          {
+            "name": "Address_2",
+            "alias": "Address 2",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "Prov",
+            "alias": "Prov",
+            "show": true
+          },
+          {
+            "name": "Postal_Code",
+            "alias": "Postal Code",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Immigration Settlement Information - EmploymentCentres",
+      "id": "ImmigrationSettlementInformation_931",
+      "layer": {
+        "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/2",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "ObjectID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Program",
+            "alias": "Program",
+            "show": true
+          },
+          {
+            "name": "Sub__Stream",
+            "alias": "Sub- Stream",
+            "show": true
+          },
+          {
+            "name": "Service_Type",
+            "alias": "Service Type",
+            "show": true
+          },
+          {
+            "name": "Service_Provider_Name",
+            "alias": "Service Provider Name",
+            "show": true
+          },
+          {
+            "name": "Address_1",
+            "alias": "Address 1",
+            "show": true
+          },
+          {
+            "name": "Address_2",
+            "alias": "Address 2",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "Prov",
+            "alias": "Prov",
+            "show": true
+          },
+          {
+            "name": "Postal_Code",
+            "alias": "Postal Code",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Immigration Settlement Information - CommunityConnections",
+      "id": "ImmigrationSettlementInformation_8066",
+      "layer": {
+        "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/3",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "ObjectID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Program",
+            "alias": "Program",
+            "show": true
+          },
+          {
+            "name": "Sub__Stream",
+            "alias": "Sub- Stream",
+            "show": true
+          },
+          {
+            "name": "Service_Type",
+            "alias": "Service Type",
+            "show": true
+          },
+          {
+            "name": "Service_Provider_Name",
+            "alias": "Service Provider Name",
+            "show": true
+          },
+          {
+            "name": "Address_1",
+            "alias": "Address 1",
+            "show": true
+          },
+          {
+            "name": "Address_2",
+            "alias": "Address 2",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "Prov",
+            "alias": "Prov",
+            "show": true
+          },
+          {
+            "name": "Postal_Code",
+            "alias": "Postal Code",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Immigration Settlement Information - EnglishLanguageLearningCentres",
+      "id": "ImmigrationSettlementInformation_1118",
+      "layer": {
+        "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/4",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "ObjectID",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Program",
+            "alias": "Program",
+            "show": true
+          },
+          {
+            "name": "Sub__Stream",
+            "alias": "Sub- Stream",
+            "show": true
+          },
+          {
+            "name": "Currently_offered__July_2009_",
+            "alias": "Currently offered (July 2009)",
+            "show": true
+          },
+          {
+            "name": "Service_Type",
+            "alias": "Service Type",
+            "show": true
+          },
+          {
+            "name": "Service_Provider_Name",
+            "alias": "Service Provider Name",
+            "show": true
+          },
+          {
+            "name": "Address_1",
+            "alias": "Address 1",
+            "show": true
+          },
+          {
+            "name": "Address_2",
+            "alias": "Address 2",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "Prov",
+            "alias": "Prov",
+            "show": true
+          },
+          {
+            "name": "Postal_Code",
+            "alias": "Postal Code",
+            "show": true
+          },
+          {
+            "name": "Phone_Number",
+            "alias": "Phone Number",
+            "show": true
+          },
+          {
+            "name": "Website",
+            "alias": "Website",
+            "show": true
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    },
+    {
+      "name": "Immigration Settlement Information - Consulates",
+      "id": "ImmigrationSettlementInformation_8624",
+      "layer": {
+        "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/5",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Embassy",
+            "alias": "Embassy",
+            "show": true
+          },
+          {
+            "name": "Address",
+            "alias": "Address",
+            "show": true
+          },
+          {
+            "name": "City",
+            "alias": "City",
+            "show": true
+          },
+          {
+            "name": "Province",
+            "alias": "Province",
+            "show": true
+          },
+          {
+            "name": "Postal_Code",
+            "alias": "Postal Code",
+            "show": true
+          },
+          {
+            "name": "Lat",
+            "alias": "Lat",
+            "show": false,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          },
+          {
+            "name": "Long",
+            "alias": "Long",
+            "show": false,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "Embassy",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": false,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}

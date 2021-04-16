@@ -1,0 +1,39 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": false,
+    "Transparency": false,
+    "SetVisibilityRange": false,
+    "EnableOrDisablePopup": false,
+    "ControlLabels": false,
+    "MoveupOrMovedown": false,
+    "OpenAttributeTable": false,
+    "DescriptionOrShowItemDetailsOrDownload": false
+  },
+  "layerOptions": {
+    "Consulates_9769": {
+      "display": false
+    },
+    "ImmigrationSettlementInformation_5773": {
+      "display": false
+    },
+    "ImmigrationSettlementInformation_9370": {
+      "display": false
+    },
+    "ImmigrationSettlementInformation_931": {
+      "display": false
+    },
+    "ImmigrationSettlementInformation_8066": {
+      "display": false
+    },
+    "ImmigrationSettlementInformation_1118": {
+      "display": false
+    },
+    "BC_Immigrants_by_Health_Service_Areas_363": {
+      "display": true
+    }
+  }
+}

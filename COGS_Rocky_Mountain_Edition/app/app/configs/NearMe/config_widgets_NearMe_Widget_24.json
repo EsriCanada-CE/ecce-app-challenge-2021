@@ -1,0 +1,1300 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "ImmigrationSettlementInformation_5773",
+      "layerId": "0",
+      "baseURL": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/",
+      "isMapServer": false,
+      "title": "Immigration Settlement Information - ServiceCanadaLocations",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Name}",
+        "mediaInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "ObjectID"
+          },
+          {
+            "fieldName": "Name",
+            "visible": true,
+            "isEditable": true,
+            "label": "Name"
+          },
+          {
+            "fieldName": "Language",
+            "visible": true,
+            "isEditable": true,
+            "label": "Language"
+          },
+          {
+            "fieldName": "Lat",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Lat"
+          },
+          {
+            "fieldName": "Long",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Long"
+          },
+          {
+            "fieldName": "Website",
+            "visible": true,
+            "isEditable": true,
+            "label": "Website"
+          }
+        ],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "visible": true,
+                "isEditable": false,
+                "format": {
+                  "places": 0,
+                  "digitSeparator": false
+                },
+                "label": "ObjectID"
+              },
+              {
+                "fieldName": "Name",
+                "visible": true,
+                "isEditable": true,
+                "label": "Name"
+              },
+              {
+                "fieldName": "Language",
+                "visible": true,
+                "isEditable": true,
+                "label": "Language"
+              },
+              {
+                "fieldName": "Lat",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Lat"
+              },
+              {
+                "fieldName": "Long",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Long"
+              },
+              {
+                "fieldName": "Website",
+                "visible": true,
+                "isEditable": true,
+                "label": "Website"
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "expressionInfos": []
+      }
+    },
+    {
+      "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/1",
+      "geometryType": "esriGeometryPoint",
+      "id": "ImmigrationSettlementInformation_9370",
+      "layerId": "1",
+      "baseURL": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/",
+      "isMapServer": false,
+      "title": "Settlement Information Centres",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Service_Provider_Name}",
+        "mediaInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "ObjectID"
+          },
+          {
+            "fieldName": "Program",
+            "visible": true,
+            "isEditable": true,
+            "label": "Program"
+          },
+          {
+            "fieldName": "Sub__Stream",
+            "visible": true,
+            "isEditable": true,
+            "label": "Sub- Stream"
+          },
+          {
+            "fieldName": "Currently_offered__July_2009_",
+            "visible": true,
+            "isEditable": true,
+            "label": "Currently offered (July 2009)"
+          },
+          {
+            "fieldName": "Service_Type",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Type"
+          },
+          {
+            "fieldName": "Service_Provider_Name",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Provider Name"
+          },
+          {
+            "fieldName": "Address_1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 1"
+          },
+          {
+            "fieldName": "Address_2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 2"
+          },
+          {
+            "fieldName": "City",
+            "visible": true,
+            "isEditable": true,
+            "label": "City"
+          },
+          {
+            "fieldName": "Prov",
+            "visible": true,
+            "isEditable": true,
+            "label": "Prov"
+          },
+          {
+            "fieldName": "Postal_Code",
+            "visible": true,
+            "isEditable": true,
+            "label": "Postal Code"
+          },
+          {
+            "fieldName": "Phone_Number",
+            "visible": true,
+            "isEditable": true,
+            "label": "Phone Number"
+          },
+          {
+            "fieldName": "Website",
+            "visible": true,
+            "isEditable": true,
+            "label": "Website"
+          },
+          {
+            "fieldName": "Lat",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Lat"
+          },
+          {
+            "fieldName": "Long",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Long"
+          }
+        ],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "visible": true,
+                "isEditable": false,
+                "format": {
+                  "places": 0,
+                  "digitSeparator": false
+                },
+                "label": "ObjectID"
+              },
+              {
+                "fieldName": "Program",
+                "visible": true,
+                "isEditable": true,
+                "label": "Program"
+              },
+              {
+                "fieldName": "Sub__Stream",
+                "visible": true,
+                "isEditable": true,
+                "label": "Sub- Stream"
+              },
+              {
+                "fieldName": "Currently_offered__July_2009_",
+                "visible": true,
+                "isEditable": true,
+                "label": "Currently offered (July 2009)"
+              },
+              {
+                "fieldName": "Service_Type",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Type"
+              },
+              {
+                "fieldName": "Service_Provider_Name",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Provider Name"
+              },
+              {
+                "fieldName": "Address_1",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 1"
+              },
+              {
+                "fieldName": "Address_2",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 2"
+              },
+              {
+                "fieldName": "City",
+                "visible": true,
+                "isEditable": true,
+                "label": "City"
+              },
+              {
+                "fieldName": "Prov",
+                "visible": true,
+                "isEditable": true,
+                "label": "Prov"
+              },
+              {
+                "fieldName": "Postal_Code",
+                "visible": true,
+                "isEditable": true,
+                "label": "Postal Code"
+              },
+              {
+                "fieldName": "Phone_Number",
+                "visible": true,
+                "isEditable": true,
+                "label": "Phone Number"
+              },
+              {
+                "fieldName": "Website",
+                "visible": true,
+                "isEditable": true,
+                "label": "Website"
+              },
+              {
+                "fieldName": "Lat",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Lat"
+              },
+              {
+                "fieldName": "Long",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Long"
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "expressionInfos": []
+      }
+    },
+    {
+      "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/2",
+      "geometryType": "esriGeometryPoint",
+      "id": "ImmigrationSettlementInformation_931",
+      "layerId": "2",
+      "baseURL": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/",
+      "isMapServer": false,
+      "title": "Employment Centres",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Service_Provider_Name}",
+        "mediaInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "ObjectID"
+          },
+          {
+            "fieldName": "Program",
+            "visible": true,
+            "isEditable": true,
+            "label": "Program"
+          },
+          {
+            "fieldName": "Sub__Stream",
+            "visible": true,
+            "isEditable": true,
+            "label": "Sub- Stream"
+          },
+          {
+            "fieldName": "Service_Type",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Type"
+          },
+          {
+            "fieldName": "Service_Provider_Name",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Provider Name"
+          },
+          {
+            "fieldName": "Address_1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 1"
+          },
+          {
+            "fieldName": "Address_2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 2"
+          },
+          {
+            "fieldName": "City",
+            "visible": true,
+            "isEditable": true,
+            "label": "City"
+          },
+          {
+            "fieldName": "Prov",
+            "visible": true,
+            "isEditable": true,
+            "label": "Prov"
+          },
+          {
+            "fieldName": "Postal_Code",
+            "visible": true,
+            "isEditable": true,
+            "label": "Postal Code"
+          },
+          {
+            "fieldName": "Phone_Number",
+            "visible": true,
+            "isEditable": true,
+            "label": "Phone Number"
+          },
+          {
+            "fieldName": "Website",
+            "visible": true,
+            "isEditable": true,
+            "label": "Website"
+          },
+          {
+            "fieldName": "Lat",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Lat"
+          },
+          {
+            "fieldName": "Long",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Long"
+          }
+        ],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "visible": true,
+                "isEditable": false,
+                "format": {
+                  "places": 0,
+                  "digitSeparator": false
+                },
+                "label": "ObjectID"
+              },
+              {
+                "fieldName": "Program",
+                "visible": true,
+                "isEditable": true,
+                "label": "Program"
+              },
+              {
+                "fieldName": "Sub__Stream",
+                "visible": true,
+                "isEditable": true,
+                "label": "Sub- Stream"
+              },
+              {
+                "fieldName": "Service_Type",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Type"
+              },
+              {
+                "fieldName": "Service_Provider_Name",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Provider Name"
+              },
+              {
+                "fieldName": "Address_1",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 1"
+              },
+              {
+                "fieldName": "Address_2",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 2"
+              },
+              {
+                "fieldName": "City",
+                "visible": true,
+                "isEditable": true,
+                "label": "City"
+              },
+              {
+                "fieldName": "Prov",
+                "visible": true,
+                "isEditable": true,
+                "label": "Prov"
+              },
+              {
+                "fieldName": "Postal_Code",
+                "visible": true,
+                "isEditable": true,
+                "label": "Postal Code"
+              },
+              {
+                "fieldName": "Phone_Number",
+                "visible": true,
+                "isEditable": true,
+                "label": "Phone Number"
+              },
+              {
+                "fieldName": "Website",
+                "visible": true,
+                "isEditable": true,
+                "label": "Website"
+              },
+              {
+                "fieldName": "Lat",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Lat"
+              },
+              {
+                "fieldName": "Long",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Long"
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "expressionInfos": []
+      }
+    },
+    {
+      "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/3",
+      "geometryType": "esriGeometryPoint",
+      "id": "ImmigrationSettlementInformation_8066",
+      "layerId": "3",
+      "baseURL": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/",
+      "isMapServer": false,
+      "title": "Community Connections",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Service_Provider_Name}",
+        "mediaInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "ObjectID"
+          },
+          {
+            "fieldName": "Program",
+            "visible": true,
+            "isEditable": true,
+            "label": "Program"
+          },
+          {
+            "fieldName": "Sub__Stream",
+            "visible": true,
+            "isEditable": true,
+            "label": "Sub- Stream"
+          },
+          {
+            "fieldName": "Service_Type",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Type"
+          },
+          {
+            "fieldName": "Service_Provider_Name",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Provider Name"
+          },
+          {
+            "fieldName": "Address_1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 1"
+          },
+          {
+            "fieldName": "Address_2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 2"
+          },
+          {
+            "fieldName": "City",
+            "visible": true,
+            "isEditable": true,
+            "label": "City"
+          },
+          {
+            "fieldName": "Prov",
+            "visible": true,
+            "isEditable": true,
+            "label": "Prov"
+          },
+          {
+            "fieldName": "Postal_Code",
+            "visible": true,
+            "isEditable": true,
+            "label": "Postal Code"
+          },
+          {
+            "fieldName": "Phone_Number",
+            "visible": true,
+            "isEditable": true,
+            "label": "Phone Number"
+          },
+          {
+            "fieldName": "Website",
+            "visible": true,
+            "isEditable": true,
+            "label": "Website"
+          },
+          {
+            "fieldName": "Lat",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Lat"
+          },
+          {
+            "fieldName": "Long",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Long"
+          }
+        ],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "visible": true,
+                "isEditable": false,
+                "format": {
+                  "places": 0,
+                  "digitSeparator": false
+                },
+                "label": "ObjectID"
+              },
+              {
+                "fieldName": "Program",
+                "visible": true,
+                "isEditable": true,
+                "label": "Program"
+              },
+              {
+                "fieldName": "Sub__Stream",
+                "visible": true,
+                "isEditable": true,
+                "label": "Sub- Stream"
+              },
+              {
+                "fieldName": "Service_Type",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Type"
+              },
+              {
+                "fieldName": "Service_Provider_Name",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Provider Name"
+              },
+              {
+                "fieldName": "Address_1",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 1"
+              },
+              {
+                "fieldName": "Address_2",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 2"
+              },
+              {
+                "fieldName": "City",
+                "visible": true,
+                "isEditable": true,
+                "label": "City"
+              },
+              {
+                "fieldName": "Prov",
+                "visible": true,
+                "isEditable": true,
+                "label": "Prov"
+              },
+              {
+                "fieldName": "Postal_Code",
+                "visible": true,
+                "isEditable": true,
+                "label": "Postal Code"
+              },
+              {
+                "fieldName": "Phone_Number",
+                "visible": true,
+                "isEditable": true,
+                "label": "Phone Number"
+              },
+              {
+                "fieldName": "Website",
+                "visible": true,
+                "isEditable": true,
+                "label": "Website"
+              },
+              {
+                "fieldName": "Lat",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Lat"
+              },
+              {
+                "fieldName": "Long",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Long"
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "expressionInfos": []
+      }
+    },
+    {
+      "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/4",
+      "geometryType": "esriGeometryPoint",
+      "id": "ImmigrationSettlementInformation_1118",
+      "layerId": "4",
+      "baseURL": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/",
+      "isMapServer": false,
+      "title": "English Language Learning Centres",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Service_Provider_Name}",
+        "mediaInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "ObjectID"
+          },
+          {
+            "fieldName": "Program",
+            "visible": true,
+            "isEditable": true,
+            "label": "Program"
+          },
+          {
+            "fieldName": "Sub__Stream",
+            "visible": true,
+            "isEditable": true,
+            "label": "Sub- Stream"
+          },
+          {
+            "fieldName": "Currently_offered__July_2009_",
+            "visible": true,
+            "isEditable": true,
+            "label": "Currently offered (July 2009)"
+          },
+          {
+            "fieldName": "Service_Type",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Type"
+          },
+          {
+            "fieldName": "Service_Provider_Name",
+            "visible": true,
+            "isEditable": true,
+            "label": "Service Provider Name"
+          },
+          {
+            "fieldName": "Address_1",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 1"
+          },
+          {
+            "fieldName": "Address_2",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address 2"
+          },
+          {
+            "fieldName": "City",
+            "visible": true,
+            "isEditable": true,
+            "label": "City"
+          },
+          {
+            "fieldName": "Prov",
+            "visible": true,
+            "isEditable": true,
+            "label": "Prov"
+          },
+          {
+            "fieldName": "Postal_Code",
+            "visible": true,
+            "isEditable": true,
+            "label": "Postal Code"
+          },
+          {
+            "fieldName": "Phone_Number",
+            "visible": true,
+            "isEditable": true,
+            "label": "Phone Number"
+          },
+          {
+            "fieldName": "Website",
+            "visible": true,
+            "isEditable": true,
+            "label": "Website"
+          },
+          {
+            "fieldName": "Lat",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Lat"
+          },
+          {
+            "fieldName": "Long",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Long"
+          }
+        ],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "visible": true,
+                "isEditable": false,
+                "format": {
+                  "places": 0,
+                  "digitSeparator": false
+                },
+                "label": "ObjectID"
+              },
+              {
+                "fieldName": "Program",
+                "visible": true,
+                "isEditable": true,
+                "label": "Program"
+              },
+              {
+                "fieldName": "Sub__Stream",
+                "visible": true,
+                "isEditable": true,
+                "label": "Sub- Stream"
+              },
+              {
+                "fieldName": "Currently_offered__July_2009_",
+                "visible": true,
+                "isEditable": true,
+                "label": "Currently offered (July 2009)"
+              },
+              {
+                "fieldName": "Service_Type",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Type"
+              },
+              {
+                "fieldName": "Service_Provider_Name",
+                "visible": true,
+                "isEditable": true,
+                "label": "Service Provider Name"
+              },
+              {
+                "fieldName": "Address_1",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 1"
+              },
+              {
+                "fieldName": "Address_2",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address 2"
+              },
+              {
+                "fieldName": "City",
+                "visible": true,
+                "isEditable": true,
+                "label": "City"
+              },
+              {
+                "fieldName": "Prov",
+                "visible": true,
+                "isEditable": true,
+                "label": "Prov"
+              },
+              {
+                "fieldName": "Postal_Code",
+                "visible": true,
+                "isEditable": true,
+                "label": "Postal Code"
+              },
+              {
+                "fieldName": "Phone_Number",
+                "visible": true,
+                "isEditable": true,
+                "label": "Phone Number"
+              },
+              {
+                "fieldName": "Website",
+                "visible": true,
+                "isEditable": true,
+                "label": "Website"
+              },
+              {
+                "fieldName": "Lat",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Lat"
+              },
+              {
+                "fieldName": "Long",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Long"
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "expressionInfos": []
+      }
+    },
+    {
+      "url": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/5",
+      "geometryType": "esriGeometryPoint",
+      "id": "ImmigrationSettlementInformation_8624",
+      "layerId": "5",
+      "baseURL": "https://services.arcgis.com/9PtzeAadJyclx9t7/arcgis/rest/services/ImmigrationSettlementInformation/FeatureServer/",
+      "isMapServer": false,
+      "title": "Consulates",
+      "visibility": true,
+      "popupInfo": {
+        "title": "{Embassy}",
+        "mediaInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "visible": true,
+            "isEditable": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": false
+            },
+            "label": "OBJECTID"
+          },
+          {
+            "fieldName": "Embassy",
+            "visible": true,
+            "isEditable": true,
+            "label": "Embassy"
+          },
+          {
+            "fieldName": "Address",
+            "visible": true,
+            "isEditable": true,
+            "label": "Address"
+          },
+          {
+            "fieldName": "City",
+            "visible": true,
+            "isEditable": true,
+            "label": "City"
+          },
+          {
+            "fieldName": "Province",
+            "visible": true,
+            "isEditable": true,
+            "label": "Province"
+          },
+          {
+            "fieldName": "Postal_Code",
+            "visible": true,
+            "isEditable": true,
+            "label": "Postal Code"
+          },
+          {
+            "fieldName": "Lat",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Lat"
+          },
+          {
+            "fieldName": "Long",
+            "visible": true,
+            "isEditable": true,
+            "format": {
+              "places": 6,
+              "digitSeparator": false
+            },
+            "label": "Long"
+          }
+        ],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "visible": true,
+                "isEditable": false,
+                "format": {
+                  "places": 0,
+                  "digitSeparator": false
+                },
+                "label": "OBJECTID"
+              },
+              {
+                "fieldName": "Embassy",
+                "visible": true,
+                "isEditable": true,
+                "label": "Embassy"
+              },
+              {
+                "fieldName": "Address",
+                "visible": true,
+                "isEditable": true,
+                "label": "Address"
+              },
+              {
+                "fieldName": "City",
+                "visible": true,
+                "isEditable": true,
+                "label": "City"
+              },
+              {
+                "fieldName": "Province",
+                "visible": true,
+                "isEditable": true,
+                "label": "Province"
+              },
+              {
+                "fieldName": "Postal_Code",
+                "visible": true,
+                "isEditable": true,
+                "label": "Postal Code"
+              },
+              {
+                "fieldName": "Lat",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Lat"
+              },
+              {
+                "fieldName": "Long",
+                "visible": true,
+                "isEditable": true,
+                "format": {
+                  "places": 6,
+                  "digitSeparator": false
+                },
+                "label": "Long"
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "expressionInfos": []
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": false
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 15,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://utility.arcgis.com/usrsvcs/appservices/67R3j4hpxXmVzxKq/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "selectedSearchLayerOnly": true,
+  "isGeodesic": false,
+  "showLocationTool": false,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        79,
+        129,
+        189,
+        255
+      ],
+      "width": 3,
+      "type": "esriSLS",
+      "style": "esriSLSDash"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 12,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic1/w_black_circle_Blue_1_Esri_Pin1.png",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHgAAAB5CAYAAADyOOV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAADKGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwMTQgNzkuMTU2Nzk3LCAyMDE0LzA4LzIwLTA5OjUzOjAyICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxNCAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2NkFDQjNDNjZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2NkFDQjNDNzZDNDkxMUU0QTM3RThDNzNCRDk3QTcyQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjY2QUNCM0M0NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjY2QUNCM0M1NkM0OTExRTRBMzdFOEM3M0JEOTdBNzJBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hw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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": " ",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Find address or place",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "h5maxsuggestions": 0,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "editorDescription": "Search for an address or locate on map",
+  "noFeatureFoundMessage": "Sorry! No results found. Try expanding the search area",
+  "showCurrentLocationTool": true,
+  "enableDirection": true,
+  "bufferInputOption": "slider"
+}

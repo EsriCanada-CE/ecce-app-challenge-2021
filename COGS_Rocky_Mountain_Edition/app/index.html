@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>NooRooTs</title>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link href="JQVMap/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="JQVMap/jquery.vmap.js"></script>
+<script src="JQVMap/jquery.vmap.world.js"></script>
+<script src="JQVMap/jquery.vmap.sampledata.js"></script>
+
+<script type="text/javascript">
+    let langCountryPairs = {
+            'ar': 'تونسي',
+            'bs': 'Босански',
+            'ca': 'Català',
+            'hr': 'Hrvatski',
+            'cs': 'Český Jazyk',
+            'da': 'Dansk',
+            'nl': 'Nederlands',
+            'en': 'English',
+            'et': 'Eesti',
+            'fi': 'Suomi',
+            'fr': 'Français',
+            'de': 'Deutsch',
+            'el': 'Ελληνικά',
+            'he': 'עברית',
+            'hu': 'Magyar',
+            'id': 'Bahasa Indonesia',
+            'it': 'Italiano',
+            'ja': '日本語',
+            'ko': '한국어',
+            'lv': 'latviešu',
+            'lt': 'Lietuvių',
+            'nb': 'Norsk',
+            'pl': 'Język polski',
+            'pt': 'Português',
+            'ro': 'Română',
+            'ru': 'Русский',
+            'sr': 'Српски',
+            'sl': 'Slovenščina',
+            'es': 'Español',
+            'sv': 'Svenska',
+            'th': 'ภาษาไทย',
+            'zh': 'Chinese',
+            'tr': 'Türkçe',
+            'uk': 'Українська',
+            'vi': 'Tiếng Việt Namn',
+            'pt-BR': 'Português Brasileiro',
+            'pt-PT': 'Português',
+            'zh-CN': '汉语',
+            'zh-TW': '漢語',
+            'zh-HK': '廣東話'
+        },
+        ss = {};
+    $(document).ready(function () {
+        $('#vmap').vectorMap({
+            map: 'world_en',
+            backgroundColor: '#99d9f200',
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: 'True',
+            showTooltip: true,
+            values: 'sample_data',
+            scaleColors: ['#C8EEFF', '#006491'],
+            normalizeFunction: 'polynomial',
+            onRegionClick: function (element, code, region) {
+                if ($(event.currentTarget).data('mapObject').isMoving == false) {
+                    $('#country_en').html(region);
+
+                    $('#country').html(ss.GetDemonyms(code, ss.country.countries));
+
+                    $('#flag').attr('src', ss.GetFlags(code, ss.country.countries));
+
+                    $('.langSelector').remove();
+                    let localization = ss.GetLocale(code, ss.clp.list);
+
+                    for (const isoLang of localization) {
+                        let langButton = `<button class="langSelector w3-button w3-hover-green w3-light-green" style="padding: 10px; margin: 10px" id = "${isoLang}" type="button"\> ${langCountryPairs[isoLang]} </button>`
+                        $('#footer').append(langButton);
+                    }
+
+                    $('#modal').show();
+                }
+            }
+        });
+
+        $(document).on('click', '.langSelector', function () {
+            window.location = 'app/?locale=' + this.id;
+        })
+
+        let clp = new XMLHttpRequest();
+        clp.overrideMimeType('application/json');
+        clp.open('GET', 'json/country-language-pair.json');
+        clp.send();
+        clp.onload = () => {
+            ss.clp = JSON.parse(clp.response);
+        }
+
+        let country = new XMLHttpRequest();
+        country.overrideMimeType('application/json');
+        country.open('GET', 'json/locale.json');
+        country.send();
+        country.onload = () => {
+            ss.country = JSON.parse(country.response);
+        }
+
+    });
+
+
+    /**@author Nathan Wisla
+     * Gets flag image urls from a json file parsed from the internet
+     * @param iso {string} the country's ISO2 name
+     * @param countries {Array} the array of country objects
+     * @returns {string} the url of the country's flag
+     * @constructor
+     */
+    ss.GetFlags = function (iso, countries) {
+        for (const country of countries) {
+            if (iso === country.iso) {
+                return country.flagurl;
+            }
+        }
+    }
+
+    ss.GetDemonyms = function (iso, countries) {
+        for (const country of countries) {
+            if (iso === country.iso) {
+                return country.localname[0];
+            }
+
+        }
+    }
+
+
+    ss.GetLocale = function (iso, countries) {
+        let result = [],
+            zhAdded = false;
+
+        for (const country of countries) {
+
+
+            if (iso.toUpperCase() === country.ISO) {
+                let cList = country.Languages.split(',');
+
+                for (x of cList) {
+                    //regex anything before a dash, if there is no dash, return the original string
+                    //languages will appear like xxx-xx or xx-xx or xxx or xx
+                    //if there is a match with pt- or zh- let it pass as normal, otherwise pull the first string segment
+
+                    let langISO = x;
+                    if (x.match(/(.*)-/)) {
+                        langISO = x.match(/(pt|zh)-/) ? x : x.match(/(.*)-/)[1];
+                    }
+
+                    if (langCountryPairs[langISO] != null && !langISO.includes('en')) {
+
+                        if (langISO.includes('zh') && !zhAdded) {
+                            result.push('zh-TW');
+                            result.push('zh-CN');
+                            result.push('zh-HK');
+                            zhAdded = true;
+                        } else if (!langISO.includes('zh')) {
+                            result.push(langISO);
+                        }
+                    }
+                }
+                result.push('en')
+                return result;
+            }
+        }
+    }
+
+
+</script>
+
+
+<style>
+
+    body {
+        font-family: "Lato", sans-serif;
+        background-color: #f7f6d5;
+        background-image: url('app/images/main-page-bg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+
+    .mySlides {
+        display: none
+    }
+
+    .w3-green {
+        color: #2a6e3b
+    }
+
+    .lang-bar {
+        width: 25%;
+        max-height: 600px;
+        overflow: scroll;
+        scrollbar-width: none;
+        padding: 20px;
+    }
+
+    .lang-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .transition {
+        transition: background-color 0.5s;
+    }
+
+    .w3-hover-green:hover {
+        background-color: #2a6e3b !important;
+    }
+
+    w3-hover-border-green:hover {
+        border-color: #cadb2d !important;
+    }
+
+    .w3-border-green, .w3-border-green:hover {
+        border-color: #2a6e3b !important;
+    }
+</style>
+<body>
+
+<!-----------------------------------------------------NAVBAR--------------------------------------------------------->
+<nav class="w3-top w3-light-grey transition">
+    <div class="w3-bar  w3-card">
+        <div class="w3-bar-item navbar-brand logo-image">
+            <img height="50px" style="min-height:50px;" href="#home" src="app/images/NooRooTs_logo.svg">
+            <span> The guide to new living</span>
+        </div>
+
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-display-right"
+           href="#home" onclick="myFunction()" title="Toggle Navigation Menu"><i
+                class="fa fa-bars"></i></a>
+        <div class="w3-bar-item w3-center">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-small" href="#home">Home</a>
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-small" href="#about">About</a>
+        </div>
+
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-small w3-right"
+           href="https://github.com/razask/COGS-Rocky-Mountain-Edition/tree/main/COGS%20-%20Rocky%20Mountain%20Edition">
+            <svg class="navbar-nav-svg d-inline-block align-text-top" height="36" role="img"
+                 viewBox="0 0 512 499.36" width="36" xmlns="http://www.w3.org/2000/svg">
+
+                <title>
+                    GitHub</title>
+                <path d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"
+                      fill="currentColor"
+                      fill-rule="evenodd"></path>
+            </svg>
+        </a>
+    </div>
+</nav>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<nav class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top transition" id="navDemo"
+     style="margin-top:46px">
+    <a class="w3-bar-item w3-button w3-padding-large" href="#home" onclick="myFunction()">Home</a>
+    <a class="w3-bar-item w3-button w3-padding-large" href="#about" onclick="myFunction()">About</a>
+</nav>
+
+<!-- Modal -->
+
+<div class="w3-modal" id="modal">
+
+    <div class="w3-modal-content w3-center w3-container w3-round-large w3-animate-opacity"
+         style="background-color:rgba(255,255,255,0.9); width: 25%">
+        <div class="w3-row" style="height:2.5em"><span class="w3-button w3-display-topright" id="btn-close">×</span>
+        </div>
+        <div class="w3-row w3-padding-16">
+            <div class="w3-col w3-half">
+                <h3 class="" id="country"></h3>
+                <div class="" id="country_en"></div>
+                <div class="">Is this correct?</div>
+            </div>
+            <div class="w3-col w3-half"><img class="" id="flag" src="" style="max-width:50%"></div>
+        </div>
+        <div class="w3-center w3-padding-16" id="footer"></div>
+
+
+    </div>
+
+</div>
+
+<!-- Page content -->
+<div id="home" class="w3-padding-64"
+     style="background-color: rgba(255,255,255,0.5); display:flex; justify-content: center">
+    <div class="w3-hide-small w3-hide-medium lang-bar">
+        <h5>الرجاء تحديد بلدك الأصلي</h5>
+        <h5>Molimo odaberite zemlju porijekla</h5>
+        <h5>Seleccioneu el vostre país d'origen</h5>
+        <h5>Odaberite svoju zemlju porijekla</h5>
+        <h5>Vyberte prosím zemi původu</h5>
+        <h5>Vælg dit oprindelsesland</h5>
+        <h5>Selecteer uw land van herkomst</h5>
+        <h5>Please select your country of origin</h5>
+        <h5>Valige oma päritoluriik</h5>
+        <h5>Valitse alkuperämaa</h5>
+        <h5>Veuillez sélectionner votre pays d'origine</h5>
+        <h5>Bitte wählen Sie Ihr Herkunftsland</h5>
+        <h5>Επιλέξτε τη χώρα καταγωγής σας</h5>
+        <h5>אנא בחר את ארץ המוצא שלך</h5>
+        <h5>Kérjük, válassza ki származási országát</h5>
+        <h5>Pilih negara asal Anda</h5>
+        <h5>Seleziona il tuo paese di origine</h5>
+        <h5>出身国を選択してください</h5>
+    </div>
+    <div style="flex-grow: 1 ;width: 66%; height: 600px" id="map">
+        <h5 class="w3-center w3-hide-large w3-padding-large">Please select your country of origin</h5>
+        <div id="vmap" style="width: 100%; height: 600px"></div>
+    </div>
+    <div class="w3-hide-small w3-hide-medium lang-bar">
+        <h5 style="text-align: right;">원산지를 선택하세요</h5>
+        <h5 style="text-align: right;">Lūdzu, izvēlieties savu izcelsmes valsti</h5>
+        <h5 style="text-align: right;">Pasirinkite savo kilmės šalį</h5>
+        <h5 style="text-align: right;">Velg opprinnelsesland</h5>
+        <h5 style="text-align: right;">Wybierz swój kraj pochodzenia</h5>
+        <h5 style="text-align: right;">Selecione seu país de origem</h5>
+        <h5 style="text-align: right;">Vă rugăm să selectați țara de origine</h5>
+        <h5 style="text-align: right;">Пожалуйста, выберите вашу страну происхождения</h5>
+        <h5 style="text-align: right;">Изаберите своју земљу порекла</h5>
+        <h5 style="text-align: right;">请选择您的原籍国</h5>
+        <h5 style="text-align: right;">Izberite državo izvora</h5>
+        <h5 style="text-align: right;">Seleccione su país de origen</h5>
+        <h5 style="text-align: right;">Välj ditt ursprungsland</h5>
+        <h5 style="text-align: right;">โปรดเลือกประเทศต้นทางของคุณ</h5>
+        <h5 style="text-align: right;">請選擇您的原籍國</h5>
+        <h5 style="text-align: right;">>Lütfen menşe ülkenizi seçin</h5>
+        <h5 style="text-align: right;">Виберіть країну походження</h5>
+        <h5 style="text-align: right;">Vui lòng chọn quốc gia xuất xứ của bạn</h5>
+    </div>
+</div>
+</div>
+
+
+<!------------------------------------------------------- ABOUT ------------------------------------------------------->
+<div style="height:60em">
+    <div class="w3-container w3-content w3-center w3-padding-64 w3-text-light-grey" id="about">
+        <div class="w3-container">
+            <h2 class="w3-wide">NooRooTs</h2>
+            <p class="w3-opacity"><i>The Guide to New Living</i></p>
+
+            <div class="w3-row tabs">
+
+                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">What is NooRooTs?</div>
+
+
+                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">How it Works</div>
+
+
+                <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Authors</div>
+
+            </div>
+
+
+            <div class="w3-container w3-content w3-center w3-padding-64 w3-animate-opacity tab-content" id="why"
+                 style="max-width:800px">
+
+                <p class="w3-justify">One of the United Nations' Sustainable Development Goals is to reduce inequality
+                    within and among countries, and one of the challenges that hinders this goal is how quickly
+                    immigrants, migrants, and refugees can integrate and participate in their new country. Some
+                    of the sources of this problem come from the language barrier, lacking knowledge of what
+                    immigration-type services are offered to immigrants, migrants, and refugees, and how to access these
+                    services. NooRooTs is a tool that can be used to provide resources that allow quick and easy access
+                    to embassies and consulates, English learning resources, community assistance and more all in one
+                    convenient
+                    place.</p>
+            </div>
+
+            <!-- how -->
+            <div class="w3-container w3-content w3-center w3-padding-64 w3-animate-opacity tab-content" id="how"
+                 style="max-width:800px">
+
+                <p class="w3-justify">Check out this short video to see how it works!</p>
+                <video style="width:100%" controls>
+                    <source src="app/videos/NooRoots%20App%20Demo%20-%20COGS%20Rocky%20Mountain%20Edition.mp4"
+                            type="video/mp4">
+                    Sorry, this video is not supported in your browser.
+                </video>
+            </div>
+
+
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- The Band Section -->
+    <div class="w3-animate-opacity w3-text-light-grey tab-content" id="who" style="display: block;">
+
+        <div class="w3-row w3-center" style="width: 100%; display: flex; justify-content: space-around">
+            <div class="w3-third" style="width:25%">
+                <h4 class="w3-justify">Johnny Chang</h4>
+                <img alt="Random Name" class="w3-circle w3-margin-bottom" src="app/images/jc.jpg" style="width:60%">
+                <p class="w3-justify">Johnny is a graduate of UBC currently enrolled in the GIS Advanced Diploma program
+                    at
+                    COGS</p>
+            </div>
+            <div class="w3-third" style="width:25%">
+                <h4 class="w3-justify">Nathan Wisla</h4>
+                <img alt="Random Name" class="w3-circle w3-margin-bottom" src="app/images/nw.jpg" style="width:60%">
+                <p class="w3-justify">Nathan has his bachelor of science in mathematics and physics from the University
+                    of
+                    Alberta,
+                    and is now a GIS Advanced Diploma student at COGS.
+                </p>
+            </div>
+            <div class="w3-third" style="width:25%">
+                <h4 class="w3-justify">Ryan Baier</h4>
+                <img alt="Random Name" class="w3-circle w3-margin-bottom" src="app/images/rb.PNG" style="width:60%">
+                <p class="w3-justify">
+                    Ryan is a student taking the Advanced Diploma GIS program at COGS.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-opacity w3-light-grey"
+        style="display: flex; justify-content: space-around; align-items: center">
+
+    <img height="200px" style="min-height:50px;" href="#home" src="app/images/NooRooTs_logo.svg">
+    <div>
+        <p>
+            This product was made for the completion of the ESRI Canada Centres of Excellence (ECCE) 2021 app
+            challenge.<br>
+
+            All data provided in this application was collected and verified to the
+            best of COGS: Rocky Mountain Edition's knowledge.<br>
+
+            COGS: Rocky Mountain Edition is not responsible for
+            possible harm caused by data in this application.<br>
+
+            NooRooTs and all associated logos are property of COGS: Rocky Mountain Edition and may not be used without
+            expressed permission from the owners.
+        </p>
+    </div>
+</footer>
+<script type="text/javascript">
+    /** @author Nathan Wisla
+     * THIS SECTION IS FOR STYLING AND GENERAL DOM LINKING,
+     * NOTHING OF COMPUTATIONAL SUBSTANCE.
+     */
+    'use strict';
+    let style = {};
+
+
+    let aboutNav = $('#About'),
+        navbar = $('nav'),
+        tabs = $('.tabs').children(),
+        tabContent = $('.tab-content'),
+        button = $('#btn-close'),
+        modal = $('#modal');
+
+
+    tabContent.hide();
+    $(tabContent[0]).show();
+    $(tabs[0]).addClass('w3-border-green w3-light-grey');
+
+    tabs.click(e => style.MakeActive(tabs, tabContent, e.target));
+
+
+    window.onscroll = () => {
+
+        if (window.scrollY == 0) {
+            navbar.addClass('w3-light-grey');
+            navbar.removeClass('w3-text-light-grey');
+        } else {
+            navbar.removeClass('w3-light-grey');
+            navbar.addClass('w3-text-light-grey');
+        }
+
+
+    }
+
+
+    button.click(() => {
+        modal.hide()
+    });
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = (event) => {
+        if (event.target == modal[0]) {
+            modal.hide();
+        }
+    }
+
+
+    style.MakeActive = function (elements, relateds, target) {
+
+        elements.removeClass('w3-border-green w3-light-grey');
+        relateds.hide();
+
+        let i = 0;
+        for (let j in elements) {
+            if (elements[j] === target) {
+                i = j
+                break
+            }
+        }
+        $(elements[i]).addClass('w3-border-green w3-light-grey');
+        $(relateds[i]).show()
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+
+</script>
+
+
+</body>
+</html>

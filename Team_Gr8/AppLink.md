@@ -1,3 +1,3 @@
 Hosted on GitHub:
 
-- DESCRIPTION: [app/](app/)
+- Main app: [app/](app/)

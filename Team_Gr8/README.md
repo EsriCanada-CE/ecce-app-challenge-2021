@@ -4,7 +4,7 @@
 Matthew Devine and Rachel Thevenard met as part of Group 8 for a class project, which became the inspiration for their ECCE team name, Team Gr8. Matthew and Rachel are two University of Waterloo graduates pursuing Diplomas of Excellence in GIS. They are both non-Indigenous, which is important to acknowledge in the context of their project. This project examines a serious and long-standing human rights tragedy: the disproportionate impact of industry on the lives of Indigenous peoples living on reserve in Canada, specifically drinking water quality.
 
 # Mission Statement
-The Web App, built with Esri Experience Builder, intends to highlight the environmental racism experienced by Indigenous communities living on reserves in the territory now known as Ontario.  “Environmental racism” is a term coined by Benjamin Chavis, a Black civil rights leader from the US.  He defined environmental racism as:
+The Web App, built with Esri's ArcGIS Experience Builder, intends to highlight the environmental racism experienced by Indigenous communities living on reserves in the territory now known as Ontario.  “Environmental racism” is a term coined by Benjamin Chavis, a Black civil rights leader from the US.  He defined environmental racism as:
 
 > Racial discrimination in environmental policy-making, the enforcement of regulations and laws, the deliberate 
 > targeting of communities of colour for toxic waste facilities, the official sanctioning of the life-threatening 

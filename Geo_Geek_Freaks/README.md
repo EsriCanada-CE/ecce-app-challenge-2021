@@ -6,7 +6,7 @@ Equality is eliminating the differences among groups of people. These groups can
 
  <a>
   <p align="center">
-    <img src="gif/Managment.GIF" width="800" title="contrib">
+    <img src="app/gif/Managment.GIF" width="800" title="contrib">
   </p>
 </a>
 
@@ -69,7 +69,7 @@ The following chart represent the workflow of criteria map combination and gener
 
 <a>
   <p align="center">
-    <img src="gif/Map_Integeration.GIF" width="800" title="contrib">
+    <img src="app/gif/Map_Integeration.GIF" width="800" title="contrib">
   </p>
 </a>
 
@@ -88,7 +88,7 @@ Visual analytics is "the science of analytical reasoning facilitated by interact
  
 <a>
   <p align="center">
-    <img src="gif/Comparsion_Tool.GIF" width="800" title="contrib">
+    <img src="app/gif/Comparsion_Tool.GIF" width="800" title="contrib">
   </p>
 </a>
 
@@ -98,14 +98,14 @@ Visual analytics is "the science of analytical reasoning facilitated by interact
 ### Analytics Visualization
 <a>
   <p align="center">
-    <img src="gif/Statistical.GIF" width="800" title="contrib">
+    <img src="app/gif/Statistical.GIF" width="800" title="contrib">
   </p>
 </a>
 
  ### Summary Report Tools
  <a>
   <p align="center">
-    <img src="gif/Report.GIF" width="800" title="contrib">
+    <img src="app/gif/Report.GIF" width="800" title="contrib">
   </p>
 </a>
 

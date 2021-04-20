@@ -2,7 +2,7 @@
 
 ## Team Member Bios
 
-<img src="../images/sherry.png" style="max-height:150px; margin:0 .5em .25em 0; float: left;" /> **Sherry Chen**: A first year Masters student studying the effects of changing water levels in coastal wetlands as well as bridging the gap between science and the community. I am currently working on an atlas for Georgian Bay wetlands using the ArcGIS Hub. I enjoy cooking and making bubble tea.<br style="clear:both;" />
+<img src="../images/sherry.png" style="max-height:150px; margin:0 .5em .25em 0; float: left;" /> **Sherry Chen**: I am a first year Masters student studying the effects of changing water levels in coastal wetlands as well as bridging the gap between science and the community. I am currently working on an atlas for Georgian Bay wetlands using the ArcGIS Hub. I enjoy cooking and making bubble tea.<br style="clear:both;" />
 
 <img src="../images/emma.png" style="max-height:150px; margin:0 .5em .25em 0; float: left;" /> **Emma Sherwood**: I am a first year Masters student at McMaster University. My research involves mapping peat smouldering vulnerability based on ecohydrology using machine learning. I did my undergrad at UBC, during which time I worked on various GIS-related projects including looking at the impacts of climate change on bird diversity in northern Saskatchewan, caribou habitat disturbance in BC, and Horned Lark ecology in the southern Alberta prairies. Outside of academics, I am an avid orienteer, so I also spend my spare time with a map: orienteering is a sport where you run through the forest navigating between checkpoints using a map and compass.<br style="clear:both;" />
 

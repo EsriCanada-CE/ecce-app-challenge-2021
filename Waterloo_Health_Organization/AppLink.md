@@ -4,4 +4,4 @@ Hosted in ArcGIS Online:
 
 Hosted on GitHub:
 
-- Main app: [https://esricanada-ce.github.io/ecce-app-challenge-2021/World_Health_Organization/app/](https://esricanada-ce.github.io/ecce-app-challenge-2021/World_Health_Organization/app/)
+- Main app: [https://esricanada-ce.github.io/ecce-app-challenge-2021/Waterloo_Health_Organization/app/](https://esricanada-ce.github.io/ecce-app-challenge-2021/Waterloo_Health_Organization/app/)

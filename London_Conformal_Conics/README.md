@@ -20,15 +20,15 @@ Team London Conformal Conic
 
 	Using 2001 and 2016 census median income data, 2001 median income deciles and average median income growth for all census subdivisions was calculated. Census subdivision features that are in the lower 4 deciles of 2001 median income where the net median income change 2001-2016 is greater than the average net median income change of all census subdivisions can be interpreted as reducing income inequality in Canada. Conversely, where if a lower 4th decile census subdivision’s net median income change is less than the national average, this could be a sign of exacerbated income inequality.
             
-###App Interface
+### App Interface
  
-####Web map tools:
+#### Web map tools:
 	* The default map zoom and home extent buttons allow the user to navigate the web map
 	* About (information) - provides infographic detailing the UN 17 Sustainable Development Goals Goal 10 - Reduce Inequality, around which this app was designed
 	* Search – allows the user to search map features (census subdivisions) by name. Map view is automatically centred on the map feature searched, and it’s attributes displayed
 	* Swipe - allows the user to view and compare how median income has changed from 2001 and 2016 by census subdivision
 
-####Dashboard widgets
+#### Dashboard widgets
 	* On startup – a welcome splash message, providing background and instructing users to zoom and select to view and interact with map features
 	* About – displays background app information, detailing the United Nations 17 Sustainable Development Goals, and specifically goal 10, relevant to this web app
 	* Infographic 1 – Infographic giving the proportions of lower income census subdivisions growing less vs more than the national average in terms of median income. This provides the user with an at-a-glance national summary of the map features by count. This feature can also double as a legend, reflecting the symbology and categories of the primary map features

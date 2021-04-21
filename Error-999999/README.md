@@ -84,6 +84,8 @@ https://www.jstor.org/stable/41995781?seq=1
 [14] Government of Canada, Sources of Air Pollution 
 https://www.canada.ca/en/environment-climate-change/services/air-pollution/sources.html 
 
+[15] Residential Proximity to Environmental Hazards and Adverse Health Outcomes https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3222489/ 
+
 ### Images 
 All images are Creative Commons Licensed 
 

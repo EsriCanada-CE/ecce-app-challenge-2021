@@ -1,4 +1,4 @@
-# Air Pollution Inequality GeoHub by Error-999999
+# Air Pollution Inequality GeoHub by Mac n Cheese
 
 The Air Pollution Inequality GeoHub is an informative and robust application that highlights air pollution in neighbourhoods across Canada which suffer from inequality. The goal of this application is to identify hotspots for environmental racism and other environmental inequities that require priority attention. We hope to spread awareness and make a change.
 

@@ -6,6 +6,11 @@ For 2021, teams participating the challenge were tasked to create an app that ad
 
 ## App Challenge Results:
 
-All of the apps will be reviewed, and winners announced by the end of April.
+All of the apps were reviewed by judges, and the team with the best aggregate score was chosen as the winner.  Esri Canada is pleased to congratulate the winning team for the 2021 App Challenge:
 
-*Stay tuned...*
+* [Mac n Cheese](https://esricanada-ce.github.io/appchallenge/2021/teams/mac/Mac_n_Cheese/) from McMaster University
+
+Tied for first runner-up for the challenge are:
+
+* [EqualHex](https://esricanada-ce.github.io/appchallenge/2021/teams/ucalgary/EqualHex/) from the University of Calgary
+* [McRaster](https://esricanada-ce.github.io/appchallenge/2021/teams/mac/McRaster/) from McMaster University
